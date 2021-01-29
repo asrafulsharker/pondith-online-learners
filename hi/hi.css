@@ -1,102 +1,51 @@
-.first-div{
-    height: 500px;
-    width:561px;
-    border: 3px solid black;
+input[type="checkbox"]{
+    position:relative;
+    width: 100px;
+    height:40px;
+    background:#bdc3c7;
+    -webkit-appearance: none;
+    border-radius: 20px;
+    outline: none;
+    transition: .4s;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
-.left-div-1{
-    height:497px;
-    width:40px;
-    border: 3px solid black;
+input:checked[type="checkbox"]{
+    background-color:#3498db;
 }
-.top-div1{
+input[type="checkbox"]::before{
+    z-index:2;
+    position: absolute;
+    content: "";
+    left:0;
+    width: 40px;
     height: 40px;
-    width:554px;
-    border: 3px solid black;
-    margin-left: 40px;
-    margin-top: -4px;
-    width: 515px;
+    background:#fff;
+    border-radius: 50%;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: 0.4s;
 }
-.top-left2{
-    height: 455px;
-    width:60px;
-    border: 3px solid black;
-    margin-top: 40px;
+input:checked[type="checkbox"]::before{
+    left:60px;
 }
-.top-div2{
-    height: 40px;
-    width:385px;
-    border: 3px solid black;
-    margin-left: 60px;
-    margin-top: -4px;
+.toggle{
+    position:relative;
+    display:inline;
 }
-.top-div3{
-    height: 160px;
-    width:385px;
-    border: 3px solid black;
-    margin-left: 60px;
-    margin-top: -4px;
-    position: relative;
-}
-.mid-1{
-    height: 160px;
-    width:90px;
-    border: 3px solid black;
+label{
     position:absolute;
-    margin-right:auto;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    pointer-events: none;
 }
-.mid-2{
-    height: 160px;
-    width:95px;
-    border: 3px solid black;
-    position:absolute;
-    margin-left:95px;
+.onbtn{
+    bottom: 15px;
+    left:15px;
 }
-.mid-3{
-    height: 160px;
-    width:95px;
-    border: 3px solid black;
-    margin-left:190px;
-    position:absolute;
-}
-.mid-4{
-    height: 160px;
-    width:95px;
-    border: 3px solid black;
-    margin-left:285px;
-    position:absolute;
-}
-
-.top-div4{
-    height: 90px;
-    width:385px;
-    border: 3px solid black;
-    margin-left: 60px;
-    margin-top: -4px;
-}
-.top-left3{
-    height: 499px;
-    width:60px;
-    border: 3px solid black;
-    margin-top: 40px;
-    margin-top: -505px;
-    margin-left: 452px;
-    position: relative;
-}
-.r-mid-1{
-    height: 110px;
-    width:30px;
-    border: 3px solid black;
-    position:absolute;
-    margin-top: 190px;
-    margin-left: -3px;
-}
-.r-mid-2{
-    height: 110px;
-    width:30px;
-    border: 3px solid black;
-    position:absolute;
-    margin-top: 190px;
-    margin-left: -3px;
-    margin-top: -312px;
-    margin-left: 483px;
+.ofbtn{
+    bottom:15px;
+    right:14px;
+    color: #34495e;
 }
