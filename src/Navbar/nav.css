@@ -7,3 +7,9 @@
 .navbar-toggler-icon{
     color:white !important;
 }
+.navbar-collapse{
+    background:#1C1C1C;
+    padding: 5px;
+    padding-bottom:20px;
+    border-radius: 6px
+}
