@@ -16,7 +16,7 @@ academic and skills based courses are focused.</p>
                 
                 <p className=""  style={{background:"",padding:"12px 12px",border:"1px solid #929191", fontSize:"12px",lineHeight:"16.34px",width:" 176.83px" ,height: "44px"}}>START EXPLORING</p>
                 <div style={{background:"",marginLeft:"15px",border:"1px solid #929191",padding:"12px 12px",width:" 176.83px" ,height: "44px" }} className="row">
-                    <img  style={{height:"14px",marginLeft:"18px"}} src={play}/>
+                    <img  style={{height:"14px",marginLeft:"18px",marginTop:"2px"}} src={play}/>
                     <p style={{ fontSize:"12px",lineHeight:"16.34px",marginLeft:"10px"}}>WATCH VIDEO</p>
                 </div>
             </div>
