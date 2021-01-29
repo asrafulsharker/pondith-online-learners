@@ -13,6 +13,14 @@
     padding-bottom:20px;
     border-radius: 6px
 }
+.nav-hov:hover{
+    border-bottom: 3px solid white;
+    transition:.4s;
+}
+.nav-hov:focus{
+    border-bottom: 3px solid white;
+    transition:.4s;
+}
 
 
 /* switch */
