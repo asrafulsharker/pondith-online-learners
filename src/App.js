@@ -12,7 +12,6 @@ function App() {
 <Navbar/>
 <Switch>
   <Route path="/" exact component={Home}/>
-  {/* <Route path="/" exact component={home}/> */}
 </Switch>
 </>
   );

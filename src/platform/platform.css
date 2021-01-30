@@ -1,0 +1,26 @@
+.platform-btn{
+    text-align: right;
+    background:#FFE8D2;
+   padding: 10px 15px;
+   margin-left: 10px;
+   font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+text-align: right;
+
+color: #000000;
+cursor: pointer;
+transition:.4s;
+}
+.platform-btn:hover{
+    background: #FD2103;
+    color: white;
+}
+.platform-btn:focus{
+    background: #FD2103;
+    color: white;
+}
