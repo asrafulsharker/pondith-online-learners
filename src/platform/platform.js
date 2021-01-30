@@ -1,15 +1,19 @@
 import React from 'react'
 import PlatformImg from '../images/platform.png';
 import Ani1 from '../images/ani1.png';
-import Ani2 from '../images/ani1.png';
-import Ani3 from '../images/ani1.png';
-import Ani4 from '../images/ani1.png';
+import Ani2 from '../images/ani2.png';
+import Ani3 from '../images/ani3.png';
+import Ani4 from '../images/ani4.png';
+import Ani5 from '../images/ani5.png';
 import './platform.css';
 function platform() {
     return (
-        <div style={{paddingBottom:""}}>
-                <img src={Ani1}/>
-
+        <div className="hero-platform" style={{paddingBottom:""}}>
+                <img className="ani1" src={Ani1}/>
+                <img className="ani3"src={Ani3}/>
+                <img className="ani4"src={Ani4}/>
+                <img className="ani5"src={Ani5}/>
+                <div className="ani6"></div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">

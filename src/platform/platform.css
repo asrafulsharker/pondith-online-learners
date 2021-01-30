@@ -43,3 +43,113 @@ cursor: pointer;
 transition:.4s;
 background: #FD2103;
 }
+
+/* animation */
+.hero-platform{
+    position: relative;
+}
+.ani1{
+    margin-top: 200px;
+    margin-left: 70px;
+    position: absolute;
+    animation-name: example;
+    animation-duration: 4s ;
+    animation-delay: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+  
+
+
+
+/* .ani2{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 190px
+} */
+.ani3{
+    position: absolute;
+    margin-top: 400px;
+    margin-left:90%;
+    animation-iteration-count: infinite;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+.ani4{
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 96%;
+
+}
+
+.ani5{
+    position: absolute;
+    margin-top: 77px;
+    margin-left: 22%;
+    animation-iteration-count: infinite;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+.ani6{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 190px;
+    animation-name: anima-name;
+    animation-delay: 4s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes anima-name {
+    0% {
+      background-color: #F0724A;
+    }
+    10% {
+      background-color: #FA5D4D;
+    }
+    20% {
+      background-color: #E3526C;
+    }
+    30% {
+        background-color: #FA4DC3;
+      }
+      40% {
+        background-color: #DF4AF0;
+      }
+      50% {
+        background-color: #E3526C;
+      }
+      60% {
+        background-color: #FAAE4D;
+      }
+      70% {
+        background-color: #F0EE4A;
+      }
+      90% {
+        background-color: #814DFA;
+      }
+      100% {
+        background-color: #F0724A;
+      }
+
+  }
