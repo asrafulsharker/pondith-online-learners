@@ -1,9 +1,15 @@
 import React from 'react'
 import PlatformImg from '../images/platform.png';
+import Ani1 from '../images/ani1.png';
+import Ani2 from '../images/ani1.png';
+import Ani3 from '../images/ani1.png';
+import Ani4 from '../images/ani1.png';
 import './platform.css';
 function platform() {
     return (
         <div style={{paddingBottom:""}}>
+                <img src={Ani1}/>
+
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
@@ -19,8 +25,8 @@ function platform() {
                         and can share their knowledges.</p>
                         <div className="mr-auto" style={{    marginLeft: "220px",marginTop: "57px"}}>
                         <div className="row">
-                            <a style={{textDecoration:"none"}} href="#"> <p className="platform-btn">Start Learning</p></a>
-                           <a style={{textDecoration:"none"}} href="#"> <p className="platform-btn">Start Learning</p></a>
+                            <a style={{textDecoration:"none"}} href="#"> <p className="platform-btn1">Read More</p></a>
+                           <a style={{textDecoration:"none"}} href="#"> <p className="platform-btn2">Start Learning</p></a>
                         </div>
                         </div>
                     </div>
