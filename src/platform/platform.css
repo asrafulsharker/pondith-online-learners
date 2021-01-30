@@ -1,7 +1,7 @@
 .platform-btn1{
     text-align: right;
     background:#FFE8D2;
-   padding: 10px 15px;
+   padding: 19px 15px;
    margin-left: 10px;
    font-family: Open Sans;
 font-style: normal;
@@ -15,6 +15,8 @@ text-align: right;
 color: #000000;
 cursor: pointer;
 transition:.4s;
+width: 235px;
+height: 64px;
 }
 .platform-btn:hover{
     background: #FD2103;
@@ -27,7 +29,7 @@ transition:.4s;
 .platform-btn2{
     text-align: right;
     background:#FFE8D2;
-   padding: 10px 15px;
+    padding: 19px 15px;
    margin-left: 10px;
    font-family: Open Sans;
 font-style: normal;
@@ -42,6 +44,8 @@ color: white;
 cursor: pointer;
 transition:.4s;
 background: #FD2103;
+width: 235px;
+height: 64px;
 }
 
 /* animation */
