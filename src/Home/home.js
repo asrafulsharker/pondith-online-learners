@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Skill from '../skill/skill';
 import pondith from '../images/pondith1.png';
 import play from '../images/play.png';
 function home() {
     return (
+       <>
         <div className="home" style={{textAlign:"center",padding:"100px",backgroundColor:"rgba(0,0,0,.9)"}}>
         <div className="container" >
             <img  src={pondith}/>
@@ -24,7 +26,9 @@ academic and skills based courses are focused.</p>
 
         </div>
         </div>
+        <Skill/>
 
+       </>
     )
 }
 
