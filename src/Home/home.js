@@ -1,11 +1,16 @@
 import React from 'react';
 import Skill from '../skill/skill';
+import Ad from '../ad/ad'
 import pondith from '../images/pondith1.png';
 import play from '../images/play.png';
 function home() {
     return (
        <>
-        <div className="home" style={{textAlign:"center",padding:"100px",backgroundColor:"rgba(0,0,0,.9)"}}>
+       <div style={{padding:"88px 0px"}}>
+       <div style={{background:"rgba(0,0,0,.9)",height:"64px",borderBottom:"1px solid #4A4848 "}}>
+            <p style={{textAlign:"center",color:"white",padding:"10px",paddingTop:"20px"}} className="container">Pondith - Online Learners’ is an Bangladeshi growing E-learning platform</p>
+        </div>
+       <div className="home" style={{textAlign:"center",padding:"100px",backgroundColor:"rgba(0,0,0,.9)"}}>
         <div className="container" >
             <img  src={pondith}/>
             <p style={{color:"white",marginTop:"20px",lineHeight:"34.45px",fontSize:"36px",fontWeight:"500"}}>Learn. Experience. Explore</p>
@@ -28,6 +33,7 @@ academic and skills based courses are focused.</p>
         </div>
         <Skill/>
 
+       </div>
        </>
     )
 }

@@ -10,7 +10,6 @@ function App() {
   return (
 <>
 <Navbar/>
-<Ad/>
 <Switch>
   <Route path="/" exact component={Home}/>
   {/* <Route path="/" exact component={home}/> */}
