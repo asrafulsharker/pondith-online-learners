@@ -27,7 +27,7 @@ function platform() {
                         <p style={{textAlign:"right",lineHeight:"25px",fontSize:"18px",fontWeight:"bold",paddingTop:"15px"}}>We aim to provide best Academic and skill courses that helps learners, 
                         the teachers also can become an instructor in Pondith - Online Learners’ 
                         and can share their knowledges.</p>
-                        <div className="mr-auto" style={{    marginLeft: "70px",marginTop: "57px"}}>
+                        <div className="mr-auto" style={{    marginLeft: "120px",marginTop: "57px"}}>
                         <div className="row">
                             <a style={{textDecoration:"none"}} href="#"> <p style={{textAlign:"center"}} className="platform-btn1 ">Read More</p></a>
                            <a style={{textDecoration:"none"}} href="#"> <p  style={{textAlign:"center"}} className="platform-btn2">Start Learning</p></a>
