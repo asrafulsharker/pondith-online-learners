@@ -18,7 +18,7 @@ function platform() {
                 <div className="row">
                     <div className="col-md-6">
                        <div className="col-md-10">
-                       <img src={PlatformImg}style={{marginTop:"200px",height:"100%",width:"100%"}}/>
+                       <img src={PlatformImg}style={{marginTop:"200px",marginBottom:"10px",height:"100%",width:"100%"}}/>
                        </div>
                     </div>
                     <div className="col-md-6 ml-auto">
