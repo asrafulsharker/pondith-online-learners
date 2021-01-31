@@ -4,24 +4,28 @@
 }
 .slick-prev:before {
     content: '←';
-    color: black !important;
-    font-size: 40px;
-    margin-top: -87px;
-    position:absolute;
-    margin-left: 1113px;
+    color: #C4C4C4 !important;
+    font-size: 55px;
+    margin-top: -260px;
+    position: absolute;
+    margin-left: 903px;
 }
-
+.slick-prev:hover::before{
+    color:#F4371D !important;
+}
+.slick-next:hover::before{
+    color:#F4371D !important;
+}
 .slick-next:before {
     position:absolute;
-    color: black !important;
-    font-size: 40px;
-    margin-top: -93px;
-    margin-left: -68px;
-
+    color: #C4C4C4 !important;
+    font-size: 55px;
+    margin-top: -260px;
+    margin-left: -182px;
 }
 .slick-dots li.slick-active button:before {
     opacity: .75;
-    color: #000;
+    color: #C4C4C4;
    
 }
 .slick-dots li {

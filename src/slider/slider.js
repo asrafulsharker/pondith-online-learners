@@ -14,8 +14,17 @@ export default class MultipleItems extends Component {
     };
     return (
       <div className="container">
-        <h2> Best Selling
+          <div className="row" style={{padding:"10px"}}>
+          <div className="col-md-2">
+          <h2 style={{fontSize:"24px",fontWeight:"bold",lineHeight:"23px",color:"#5E5555"}}> Best Selling<br/>
             Courses </h2>
+          </div>
+            <div className="col-md-5">
+            <p style={{fontSize:"12px",fontWeight:"bold",lineHeight:"16px",paddingTop:"4px"}}>We aim to provide best Academic and skill courses that helps learners, 
+the teachers also can become an instructor in Pondith - Online Learners’ 
+and can share their knowledges.</p>
+            </div>
+          </div>
         <Slider {...settings}>
           <div>
           <Card style={{ width: '80%' }}>
