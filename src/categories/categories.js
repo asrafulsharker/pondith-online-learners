@@ -63,8 +63,9 @@ export default function ScrollableTabsButtonAuto() {
 
   return (
 <div className="container">
+    <p style={{textAlign:"center",fontWeight:"bold",fontSize:"18px",lineHeight:"17px",padding:"10px"}}>Our Course Categories</p>
 <div className={classes.root}>
-      <AppBar position="static" style={{marginTop:"80px"}} color="default">
+      <AppBar position="static"  color="default">
         <Tabs
           value={value}
           onChange={handleChange}
