@@ -1,6 +1,7 @@
 import React from 'react';
 import Skill from '../skill/skill';
-import Platform from '../platform/platform'
+import Platform from '../platform/platform';
+import Categories from '../categories/categories';
 import pondith from '../images/pondith1.png';
 import play from '../images/play.png';
 function home() {
@@ -33,6 +34,7 @@ academic and skills based courses are focused.</p>
         </div>
         <Skill/>
         <Platform/>
+        <Categories/>
 
        </div>
        </>
