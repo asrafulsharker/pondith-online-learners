@@ -104,7 +104,7 @@ export default class MultipleItems extends Component {
         <Card.Body>
         <img className="bdj"src={trending}/>
           <p className="bdj-p">Trending</p>
-        <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
+        <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>Python - Basic to Advance</Card.Title>
           <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
           We aim to provide best Academic and skill courses that helps learners, 
@@ -167,7 +167,7 @@ export default class MultipleItems extends Component {
         <Card.Body>
         <img className="bdj"src={trending2}/>
           <p className="bdj-p">Trending</p>
-        <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
+        <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>Machine Learning - A to Z</Card.Title>
           <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
           We aim to provide best Academic and skill courses that helps learners, 
