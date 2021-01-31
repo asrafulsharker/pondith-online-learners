@@ -15,10 +15,30 @@
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: #000;
-    content: 'nirob';
-    font-size: 20px !important;
+   
 }
 .slick-dots li {
     color:red !important;
     background-color:red
+}
+
+
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+    content:"hi" ;
+   
+}
+.slick-dots li button:before {
+    content: ' nirob';
 }
