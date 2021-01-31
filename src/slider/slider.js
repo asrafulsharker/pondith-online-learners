@@ -75,10 +75,35 @@ export default class MultipleItems extends Component {
              
               </div>
             </div>
+              <div className="container">
             <div className="row">
+            <div className="col-md-6">
               
+              <div className="row">
+            <i  style={{color:"#FF290C"}} class="fa fa-star"/>
+            <i  style={{color:"#FF290C"}} class="fa fa-star"></i>
+            <i  style={{color:"#FF290C"}} class="fa fa-star"></i>
+            <i  style={{color:"#FF290C"}} class="fa fa-star-half-full"></i>
+            <i style={{color:"#FF290C"}} class="fa fa-star-o"></i>
+              </div>
+
+              </div>
+              <div className="col-md-6">
+                <p style={{fontSize:"11px",textAlign:"right"}}><strong>120+</strong> Enrolment</p>
+              </div>
+            </div>
             </div>
             <hr/>
+            <div className="container">
+              <div className="row">
+                <div className="col-md-7">
+                    <p style={{height:"35px",width:"120px",borderRadius:"5px",fontWeight:"bold",fontSize:"14px",lineHeight:"13px",background:"#FF290C",padding:"10px 20px"}}>Add to Cart</p>
+                </div>
+                <div className="col-md-5">
+                      <p style={{textAlign:"right"}}>$159.99</p>
+                  </div>
+              </div>
+            </div>
         </Card.Body>
       </Card>
           </div>
