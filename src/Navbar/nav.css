@@ -21,8 +21,20 @@
     border-bottom: 3px solid white;
     transition:.4s;
 }
-
-
+.navbar-nav{
+    margin-top:2px;
+}
+#basic-navbar-nav{
+    margin-top:-18px ;
+    padding-bottom: 0px;
+}
+.nirob{
+    position: relative;
+}
+.nadim{
+    position: absolute;
+    
+}
 /* switch */
 input[type="checkbox"]{
     position:relative;
