@@ -38,7 +38,9 @@ export default class MultipleItems extends Component {
         <div className="col-md-12 " style={{width:"100%"}}>
           <Card className="course-sw" style={{ width: '100%' }}>
         <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
-        <Card.Body>
+        <Card.Body className="cardBody">
+          <img className="bdj"src={bestSelling}/>
+          <p className="bdj-p">Best Selling</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
           <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
@@ -100,6 +102,8 @@ export default class MultipleItems extends Component {
           <Card className="course-sw" style={{ width: '100%' }}>
         <Card.Img variant="top" src={Category2} style={{padding:"5%"}} />
         <Card.Body>
+        <img className="bdj"src={trending}/>
+          <p className="bdj-p">Trending</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
           <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
@@ -161,6 +165,8 @@ export default class MultipleItems extends Component {
           <Card className="course-sw" style={{ width: '100%' }}>
         <Card.Img variant="top" src={Category3} style={{padding:"5%"}} />
         <Card.Body>
+        <img className="bdj"src={trending2}/>
+          <p className="bdj-p">Trending</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
           <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
@@ -222,6 +228,8 @@ export default class MultipleItems extends Component {
           <Card className="course-sw" style={{ width: '100%' }}>
         <Card.Img variant="top" src={Category2} style={{padding:"5%"}} />
         <Card.Body>
+        <img className="bdj"src={bestSelling}/>
+          <p className="bdj-p">Best Selling</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
           <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
@@ -285,6 +293,8 @@ export default class MultipleItems extends Component {
           <Card className="course-sw" style={{ width: '100%' }}>
         <Card.Img variant="top" src={Category3} style={{padding:"5%"}} />
         <Card.Body>
+        <img className="bdj"src={trending}/>
+          <p className="bdj-p">Best Selling</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
           <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
@@ -346,6 +356,8 @@ export default class MultipleItems extends Component {
           <Card className="course-sw" style={{ width: '100%' }}>
         <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
         <Card.Body>
+        <img className="bdj"src={trending2}/>
+          <p className="bdj-p">Best Selling</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
           <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
@@ -407,6 +419,8 @@ export default class MultipleItems extends Component {
           <Card className="course-sw" style={{ width: '100%' }}>
         <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
         <Card.Body>
+        <img className="bdj"src={bestSelling}/>
+          <p className="bdj-p">Best Selling</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
           <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
@@ -461,8 +475,8 @@ export default class MultipleItems extends Component {
                   </div>
               </div>
             </div>
-        </Card.Body>
-      </Card>
+          </Card.Body>
+         </Card>
           </div>
         </Slider>
       </div>

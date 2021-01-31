@@ -62,3 +62,24 @@
     box-shadow: 0px 4px 30px rgba(90, 87, 87, 0.25);
     cursor: pointer;
 }
+.bdj{
+    position:absolute;
+    margin-top: -59px;
+    margin-left: -23px;
+}
+.bdj-p{
+    position:absolute;
+    margin-top: -47px;
+    margin-left: -9px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 11px;
+line-height: 12px;
+
+color: #FFFCFC;
+
+}
+.cardBody{
+    position: relative;
+}
