@@ -6,11 +6,18 @@
     content: '←';
     color: black !important;
     font-size: 40px;
+    margin-top: -87px;
+    position:absolute;
+    margin-left: 1113px;
 }
 
 .slick-next:before {
+    position:absolute;
     color: black !important;
     font-size: 40px;
+    margin-top: -93px;
+    margin-left: -68px;
+
 }
 .slick-dots li.slick-active button:before {
     opacity: .75;

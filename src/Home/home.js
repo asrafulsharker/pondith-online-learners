@@ -36,7 +36,7 @@ academic and skills based courses are focused.</p>
         <Skill/>
         <Platform/>
         <Categories/>
-        
+        <Slider/>
        </div>
        </>
     )

@@ -5,7 +5,7 @@ import Navbar from './Navbar/nav';
 import Ad from './ad/ad';
 import Home from './Home/home';
 import Categories from './categories/categories';
-
+import {ThemeProvider} from '@material-ui/core';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
