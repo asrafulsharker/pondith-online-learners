@@ -5,7 +5,7 @@
 .slick-prev:before {
     content: '←';
     color: #C4C4C4 !important;
-    font-size: 55px;
+    font-size: 45px;
     margin-top: -260px;
     position: absolute;
     margin-left: 903px;
@@ -19,9 +19,9 @@
 .slick-next:before {
     position:absolute;
     color: #C4C4C4 !important;
-    font-size: 55px;
+    font-size: 45px;
     margin-top: -260px;
-    margin-left: -182px;
+    margin-left: -192px;
 }
 .slick-dots li.slick-active button:before {
     opacity: .75;
