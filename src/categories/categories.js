@@ -69,13 +69,14 @@ export default function ScrollableTabsButtonAuto() {
         <Tabs
           value={value}
           onChange={handleChange}
-          indicatorColor="primary"
-          textColor="primary"
+          indicatorColor="secondary"
+          textColor="secondary"
+          backgroundColor="primary"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
         >
-          <Tab label="Most Popular " {...a11yProps(0)} />
+          <Tab style={{background:""}} label="Most Popular " {...a11yProps(0)} />
           <Tab label="Multimedia" {...a11yProps(1)} />
           <Tab label="Design" {...a11yProps(2)} />
           <Tab label="Development" {...a11yProps(3)} />
