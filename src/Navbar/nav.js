@@ -8,7 +8,7 @@ function nav() {
     return (
         <div className="col-md-12" style={{zIndex:"9999",position:"fixed",background:"#1C1C1C",height:"72px",boxShadow:" 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25)"}} >
            <Navbar  expand="lg">
-  <Navbar.Brand href="#home" className=""><img style={{height:"80px",width:"210px",marginTop:"-16px"}} src={logo1}/></Navbar.Brand>
+  <Navbar.Brand href="#home" className=""><img style={{height:"80px",width:"180px",marginTop:"-16px"}} src={logo1}/></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" style={{background:"white"}}/>
   <Navbar.Collapse id="basic-navbar-nav"  style={{marginTop:"px"}}>
     <Nav className="ml-auto">
