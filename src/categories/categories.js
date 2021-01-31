@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles ,ThemeProvider,createMuiTheme } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
@@ -14,6 +14,7 @@ function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
   return (
+
 <div className="container">
 <div
       role="tabpanel"
@@ -31,6 +32,24 @@ function TabPanel(props) {
 </div>
   );
 }
+const nil =createMuiTheme({
+  overrides: {
+    // Style sheet name ⚛️
+    MuiButton: {
+      // Name of the rule
+      text: {
+        // Some CSS
+        background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+        borderRadius: 3,
+        border: 0,
+        color: 'white',
+        height: 48,
+        padding: '0 30px',
+        boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+      },
+    },
+  },
+})
 
 TabPanel.propTypes = {
   children: PropTypes.node,
@@ -51,6 +70,8 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
     backgroundColor: theme.palette.background.paper,
   },
+
+  
 }));
 
 export default function ScrollableTabsButtonAuto() {
@@ -62,7 +83,8 @@ export default function ScrollableTabsButtonAuto() {
   };
 
   return (
-<div className="container">
+    <div style={{background:"rgba(255, 249, 247, 0.5)"}}>
+      <div className="container">
     <p style={{textAlign:"center",fontWeight:"bold",fontSize:"18px",lineHeight:"17px",padding:"10px"}}>Our Course Categories</p>
 <div className={classes.root}>
       <AppBar position="static"  color="default">
@@ -76,7 +98,7 @@ export default function ScrollableTabsButtonAuto() {
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
         >
-          <Tab style={{background:""}} label="Most Popular " {...a11yProps(0)} />
+          <Tab  style={{background:""}} label="Most Popular " {...a11yProps(0)} />
           <Tab label="Multimedia" {...a11yProps(1)} />
           <Tab label="Design" {...a11yProps(2)} />
           <Tab label="Development" {...a11yProps(3)} />
@@ -115,5 +137,6 @@ export default function ScrollableTabsButtonAuto() {
       </TabPanel>
     </div>
 </div>
+    </div>
   );
 }

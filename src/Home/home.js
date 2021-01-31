@@ -1,5 +1,6 @@
 import React from 'react';
 import Skill from '../skill/skill';
+import Slider from '../slider/slider';
 import Platform from '../platform/platform';
 import Categories from '../categories/categories';
 import pondith from '../images/pondith1.png';
@@ -35,7 +36,7 @@ academic and skills based courses are focused.</p>
         <Skill/>
         <Platform/>
         <Categories/>
-
+        <Slider/>
        </div>
        </>
     )
