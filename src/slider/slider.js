@@ -21,7 +21,7 @@ export default class MultipleItems extends Component {
           <Card style={{ width: '80%' }}>
         <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>nirob</Card.Title>
           <Card.Text>
             Some quick example text to build on the card title and make up the bulk of
             the card's content.
@@ -34,7 +34,7 @@ export default class MultipleItems extends Component {
           <Card style={{ width: '80%' }}>
         <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>nirob</Card.Title>
           <Card.Text>
             Some quick example text to build on the card title and make up the bulk of
             the card's content.
@@ -47,7 +47,7 @@ export default class MultipleItems extends Component {
           <Card style={{ width: '80%' }}>
             <Card.Img variant="top" src={Category1}  style={{padding:"5%"}}/>
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>nirob</Card.Title>
               <Card.Text>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
@@ -60,7 +60,7 @@ export default class MultipleItems extends Component {
           <Card style={{ width: '80%' }}>
           <Card.Img variant="top" src={Category1}  style={{padding:"5%"}}/>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>nirob</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
@@ -73,7 +73,7 @@ export default class MultipleItems extends Component {
           <Card style={{ width: '80%' }}>
           <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>nirob</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
@@ -86,7 +86,7 @@ export default class MultipleItems extends Component {
           <Card style={{ width: '80%' }}>
           <Card.Img variant="top" src={Category1}  style={{padding:"5%"}}/>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>nirob</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
@@ -99,7 +99,7 @@ export default class MultipleItems extends Component {
           <Card style={{ width: '80%' }}>
           <Card.Img variant="top" src={Category1}  style={{padding:"5%"}}/>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>nirob</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
@@ -112,7 +112,7 @@ export default class MultipleItems extends Component {
           <Card style={{ width: '80%' }}>
           <Card.Img variant="top" src={Category1}  style={{padding:"5%"}}/>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>nirob</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
@@ -125,7 +125,7 @@ export default class MultipleItems extends Component {
           <Card style={{ width: '80%' }}>
           <Card.Img variant="top" src={Category1}  style={{padding:"5%"}}/>
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>nirob</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
