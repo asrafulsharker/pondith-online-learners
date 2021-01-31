@@ -96,8 +96,24 @@ height: 55px;
     position: absolute;
     margin-top: 77px;
     margin-left: 96%;
-
+    animation-name: ani4;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
+@keyframes ani4{
+  0%   { left:0px; top:0px;}
+  15%  { left:0px; top:50px;}
+  25%  { left:0px; top:0px;}
+  35%  { left:0px; top:100px;}
+  45%  { left:0px; top:50px;}
+  55%  { left:0px; top:100px;}
+  65%  { left:0px; top:150px;}
+  75%  { left:0px; top:200px;}
+  85%  { left:0px; top:150px;}
+  95%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
+
 
 .ani5{
     position: absolute;
