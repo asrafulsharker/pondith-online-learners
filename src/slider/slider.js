@@ -52,16 +52,19 @@ export default class MultipleItems extends Component {
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
               <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px" ,paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
           </div>
              
               </div>
@@ -111,20 +114,23 @@ export default class MultipleItems extends Component {
           the teachers also can become an instructor in Pondith - Online Learners’ 
           and can share their knowledges.
           </Card.Text>
-            <div className="container ">
+          <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
               <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px" ,paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
           </div>
              
               </div>
@@ -174,20 +180,23 @@ export default class MultipleItems extends Component {
           the teachers also can become an instructor in Pondith - Online Learners’ 
           and can share their knowledges.
           </Card.Text>
-            <div className="container ">
+          <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
               <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px" ,paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
           </div>
              
               </div>
@@ -237,20 +246,23 @@ export default class MultipleItems extends Component {
           the teachers also can become an instructor in Pondith - Online Learners’ 
           and can share their knowledges.
           </Card.Text>
-            <div className="container ">
+          <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
               <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px" ,paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
           </div>
              
               </div>
@@ -302,20 +314,23 @@ export default class MultipleItems extends Component {
           the teachers also can become an instructor in Pondith - Online Learners’ 
           and can share their knowledges.
           </Card.Text>
-            <div className="container ">
+          <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
               <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px" ,paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
           </div>
              
               </div>
@@ -365,20 +380,23 @@ export default class MultipleItems extends Component {
           the teachers also can become an instructor in Pondith - Online Learners’ 
           and can share their knowledges.
           </Card.Text>
-            <div className="container ">
+          <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
               <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px" ,paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
           </div>
              
               </div>
@@ -428,20 +446,23 @@ export default class MultipleItems extends Component {
           the teachers also can become an instructor in Pondith - Online Learners’ 
           and can share their knowledges.
           </Card.Text>
-            <div className="container ">
+          <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
               <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px" ,paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"6px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"10px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"6px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
+          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
           </div>
              
               </div>
