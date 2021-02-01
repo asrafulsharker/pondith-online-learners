@@ -36,7 +36,7 @@ export default class MultipleItems extends Component {
           </div>
         <Slider {...settings}>
         <div className="col-md-12 " style={{width:"100%"}}>
-          <Card className="course-sw" style={{ width: '100%' }}>
+          <Card className="course-sw" style={{ width: '100%',transition:"6s" }}>
         <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
         <Card.Body className="cardBody">
           <img className="bdj"src={bestSelling}/>
