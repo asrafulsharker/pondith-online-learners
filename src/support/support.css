@@ -6,17 +6,31 @@
     position: absolute;
     margin-top: 483px;
     margin-left: -200px;
+    animation-iteration-count: infinite;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
 }
 .lani2{
     position: absolute;
     margin-left: 484px;
     margin-top: 80px;
+    animation-iteration-count: infinite;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
 }
 .lani3{
     position: absolute;
     margin-left: 1205px;
     margin-top: 45px;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
 }
+
 .lani4{
     position: absolute;
     height:45px;
@@ -25,6 +39,10 @@
     border-radius: 50%;
     margin-top: 102px;
     margin-left: -171px;
+    animation-name: lani;
+    animation-delay: 4s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .lani5{
     position: absolute;
@@ -34,4 +52,41 @@
     border-radius: 50%;
     margin-left: 1179px;
     margin-top: 300px;
+    animation-name: lani;
+    animation-delay: 4s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes lani {
+    0% {
+        background-color: #F0724A;
+      }
+      10% {
+        background-color: #FA5D4D;
+      }
+      20% {
+        background-color: #E3526C;
+      }
+      30% {
+          background-color: #FA4DC3;
+        }
+        40% {
+          background-color: #DF4AF0;
+        }
+        50% {
+          background-color: #E3526C;
+        }
+        60% {
+          background-color: #FAAE4D;
+        }
+        70% {
+          background-color: #F0EE4A;
+        }
+        90% {
+          background-color: #814DFA;
+        }
+        100% {
+          background-color: #F0724A;
+        }
+  }
