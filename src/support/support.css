@@ -1,0 +1,37 @@
+.support{
+    position: relative;
+}
+
+.lani1{
+    position: absolute;
+    margin-top: 483px;
+    margin-left: -200px;
+}
+.lani2{
+    position: absolute;
+    margin-left: 484px;
+    margin-top: 80px;
+}
+.lani3{
+    position: absolute;
+    margin-left: 1205px;
+    margin-top: 45px;
+}
+.lani4{
+    position: absolute;
+    height:45px;
+    width:45px;
+    background-color:red;
+    border-radius: 50%;
+    margin-top: 102px;
+    margin-left: -171px;
+}
+.lani5{
+    position: absolute;
+    height:45px;
+    width:45px;
+    background-color:red;
+    border-radius: 50%;
+    margin-left: 1179px;
+    margin-top: 300px;
+}
