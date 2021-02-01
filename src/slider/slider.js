@@ -23,7 +23,7 @@ export default class MultipleItems extends Component {
     };
     return (
       <div className="container" style={{padding:"50px 5px"}}>
-          <div className="row" style={{padding:"10px"}}>
+          <div className="row" style={{padding:"10px",paddingBottom:"40px"}}>
           <div className="col-md-2">
           <h2 style={{fontSize:"24px",fontWeight:"bold",lineHeight:"23px",color:"#5E5555"}}> Best Selling<br/>
             Courses </h2>
@@ -42,7 +42,7 @@ export default class MultipleItems extends Component {
           <img className="bdj"src={bestSelling}/>
           <p className="bdj-p">Best Selling</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
-          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
+          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444",paddingBottom:"10px"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
           We aim to provide best Academic and skill courses that helps learners, 
           the teachers also can become an instructor in Pondith - Online Learners’ 
@@ -69,7 +69,7 @@ export default class MultipleItems extends Component {
              
               </div>
             </div>
-              <div className="container">
+              <div className="container" style={{paddingTop:"15px"}}>
             <div className="row">
             <div className="col-md-6">
               
@@ -108,7 +108,7 @@ export default class MultipleItems extends Component {
         <img className="bdj"src={trending}/>
           <p className="bdj-p">Trending</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>Python - Basic to Advance</Card.Title>
-          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
+          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444",paddingBottom:"10px"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
           We aim to provide best Academic and skill courses that helps learners, 
           the teachers also can become an instructor in Pondith - Online Learners’ 
@@ -135,7 +135,7 @@ export default class MultipleItems extends Component {
              
               </div>
             </div>
-              <div className="container">
+              <div className="container" style={{paddingTop:"15px"}}>
             <div className="row">
             <div className="col-md-6">
               
@@ -174,7 +174,7 @@ export default class MultipleItems extends Component {
         <img className="bdj"src={trending2}/>
           <p className="bdj-p">Trending</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>Machine Learning - A to Z</Card.Title>
-          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
+          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444",paddingBottom:"10px"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
           We aim to provide best Academic and skill courses that helps learners, 
           the teachers also can become an instructor in Pondith - Online Learners’ 
@@ -201,7 +201,7 @@ export default class MultipleItems extends Component {
              
               </div>
             </div>
-              <div className="container">
+              <div className="container" style={{paddingTop:"15px"}}>
             <div className="row">
             <div className="col-md-6">
               
@@ -240,7 +240,7 @@ export default class MultipleItems extends Component {
         <img className="bdj"src={bestSelling}/>
           <p className="bdj-p">Best Selling</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
-          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
+          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444",paddingBottom:"10px"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
           We aim to provide best Academic and skill courses that helps learners, 
           the teachers also can become an instructor in Pondith - Online Learners’ 
@@ -267,7 +267,7 @@ export default class MultipleItems extends Component {
              
               </div>
             </div>
-              <div className="container">
+              <div className="container" style={{paddingTop:"15px"}}>
             <div className="row">
             <div className="col-md-6">
               
@@ -308,7 +308,7 @@ export default class MultipleItems extends Component {
         <img className="bdj"src={trending}/>
           <p className="bdj-p">Best Selling</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
-          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
+          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444",paddingBottom:"10px"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
           We aim to provide best Academic and skill courses that helps learners, 
           the teachers also can become an instructor in Pondith - Online Learners’ 
@@ -335,7 +335,7 @@ export default class MultipleItems extends Component {
              
               </div>
             </div>
-              <div className="container">
+              <div className="container" style={{paddingTop:"15px"}}>
             <div className="row">
             <div className="col-md-6">
               
@@ -374,7 +374,7 @@ export default class MultipleItems extends Component {
         <img className="bdj"src={trending2}/>
           <p className="bdj-p">Best Selling</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
-          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
+          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444",paddingBottom:"10px"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
           We aim to provide best Academic and skill courses that helps learners, 
           the teachers also can become an instructor in Pondith - Online Learners’ 
@@ -401,7 +401,7 @@ export default class MultipleItems extends Component {
              
               </div>
             </div>
-              <div className="container">
+              <div className="container" style={{paddingTop:"15px"}}>
             <div className="row">
             <div className="col-md-6">
               
@@ -440,7 +440,7 @@ export default class MultipleItems extends Component {
         <img className="bdj"src={bestSelling}/>
           <p className="bdj-p">Best Selling</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
-          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444"}}>MS Mir</p>
+          <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444",paddingBottom:"10px"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
           We aim to provide best Academic and skill courses that helps learners, 
           the teachers also can become an instructor in Pondith - Online Learners’ 
@@ -467,7 +467,7 @@ export default class MultipleItems extends Component {
              
               </div>
             </div>
-              <div className="container">
+              <div className="container" style={{paddingTop:"15px"}}>
             <div className="row">
             <div className="col-md-6">
               
