@@ -22,7 +22,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box p={4}>
+        <Box p={5}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -65,7 +65,7 @@ export default function ScrollableTabsButtonAuto() {
 
       <div style={{background:"rgba(255, 249, 247, 0.5)"}}>
       <div className="container">
-    <p style={{textAlign:"center",fontWeight:"bold",fontSize:"18px",lineHeight:"17px",padding:"10px"}}>Our Course Categories</p>
+    <p style={{textAlign:"center",fontWeight:"bold",fontSize:"18px",lineHeight:"17px",padding:"10px" ,paddingTop:"50px"}}>Our Course Categories</p>
 <div className={classes.root}>
       <AppBar position="static"  color="default">
         <Tabs
