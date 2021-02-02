@@ -6,6 +6,7 @@ import Support from '../support/support';
 import Auth from '../auth/auth';
 import Review from '../s_review/review';
 import Ready from '../ready/ready';
+import Footer from '../footer/footer';
 import Categories from '../categories/categories';
 import pondith from '../images/pondith1.png';
 import play from '../images/play.png';
@@ -45,6 +46,7 @@ academic and skills based courses are focused.</p>
         <Auth/>
         <Review/>
         <Ready/>
+        <Footer/>
        </div>
        </>
     )

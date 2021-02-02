@@ -63,7 +63,7 @@ export default function ScrollableTabsButtonAuto() {
 
   return (
 
-      <div style={{background:"rgba(255, 249, 247, 0.5)"}}>
+      <div style={{background:"rgba(255, 249, 247, 0.5)",padding:"80px 0px"}}>
       <div className="container">
     <p style={{textAlign:"center",fontWeight:"bold",fontSize:"18px",lineHeight:"17px",padding:"10px" ,paddingTop:"50px"}}>Our Course Categories</p>
 <div className={classes.root}>

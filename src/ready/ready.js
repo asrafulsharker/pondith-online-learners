@@ -3,7 +3,7 @@ import PondithBg from '../images/pondith-bg.png';
 import './ready.css';
 function ready() {
     return (
-        <div>
+        <div style={{margin:"80px"}}>
             <div style={{margin:"100px",backgroundColor:"#151515",borderRadius:"81px",boxShadow:"0px 4px 4px rgba(0, 0, 0, 0.25)"}}>
                 <div className="container" style={{padding:"50px"}}>
                     <div className="row">
