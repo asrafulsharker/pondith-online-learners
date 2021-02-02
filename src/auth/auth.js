@@ -1,11 +1,12 @@
 import React from 'react'
-
+import Auth1 from '../images/auth1.png';
 function auth() {
     return (
         <div>
             <div className="container">
                 <a href="#">Join Session</a>
-                <div className="col-md-6">
+                    <div className="row">
+                    <div className="col-md-6">
                     <p>Confirm your Presence</p>
                     <form >
                         <input type="text" name="text"  placeholder="Your Name"  required/>
@@ -14,6 +15,10 @@ function auth() {
                         <button type="submit">Submit</button>
                     </form>
                 </div>
+                <div className="col-md-6">
+                    <img src={Auth1}/>
+                </div>
+                    </div>
             </div>
         </div>
     )
