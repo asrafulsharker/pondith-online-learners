@@ -35,12 +35,12 @@ export default class MultipleItems extends Component {
             </div>
           </div>
         <Slider {...settings}>
-        <div className="col-md-12 " style={{width:"100%"}}>
-          <Card className="course-sw" style={{ width: '100%',transition:"6s" }}>
+        <div className="col-md-12" style={{width:"100%"}}>
+          <Card className="course-sw" style={{ width: '100%' }}>
         <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
-        <Card.Body className="cardBody">
-          <img className="bdj"src={bestSelling}/>
-          <p className="bdj-p">Best Selling</p>
+        <Card.Body>
+        <img className="bdj"src={bestSelling}/>
+          <p className="bdj-p">Trending</p>
         <Card.Title style={{fontWeight:"bold",fontSize:"18px",lineHeight:"17px"}}>AI - Artificial Intellegence</Card.Title>
           <p style={{fontWeight:"bold",fontSize:"12px",lineHeight:"16px",color:"#444444",paddingBottom:"10px"}}>MS Mir</p>
           <Card.Text style={{fontWeight:"bold",fontSize:"10px",lineHeight:"14px",cilor:"#9a9a9a"}}>
@@ -48,7 +48,7 @@ export default class MultipleItems extends Component {
           the teachers also can become an instructor in Pondith - Online Learners’ 
           and can share their knowledges.
           </Card.Text>
-            <div className="container ">
+          <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
               <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
