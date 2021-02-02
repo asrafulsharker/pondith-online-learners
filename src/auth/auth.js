@@ -11,9 +11,9 @@ function auth() {
                     <div className="col-md-6">
                     <p style={{fontSize:"24px",lineHeight:"28px"}}>Confirm your Presence</p>
                     <form >
-                        <input  type="text" name="text" style={{marginTop:"10px",height:"58px",width:"549px"}} placeholder="Your Name"  required/>
-                        <input  type="tel" name="text" style={{marginTop:"10px",height:"58px",width:"549px"}}  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  required placeholder="Phone Number"/>
-                        <input  type="email" name="email" style={{marginTop:"10px",height:"58px",width:"549px"}}  placeholder="Email"  required/>
+                        <input   type="text" name="text" style={{paddingLeft:"15px",marginTop:"10px",height:"58px",width:"549px"}} placeholder="Your Name"  required/>
+                        <input  type="tel" name="text" style={{paddingLeft:"15px",marginTop:"10px",height:"58px",width:"549px"}}  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"  required placeholder="Phone Number"/>
+                        <input  type="email" name="email" style={{paddingLeft:"15px",marginTop:"10px",height:"58px",width:"549px"}}  placeholder="Email"  required/>
                         <button type="submit" style={{marginTop:"10px",height:"58px",width:"549px",border:"none",color:"white",background:" #FF290C"}}>Submit</button>
                     </form>
                 </div>

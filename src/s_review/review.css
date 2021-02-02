@@ -1,0 +1,53 @@
+ 
+ .s-img{
+     position: relative;
+     margin-left: 280px;
+     z-index:9;
+ }
+ .s-top-div{
+    position: absolute;
+    margin-top: -63px;
+    margin-left: 613px;
+ }
+ .s-bottom-div{
+    position: absolute;
+    margin-left: 238px;
+    margin-top: -62px;
+ }
+ .s-p2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 35px;
+    
+    color: #474747;
+ }
+ .s-p3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 25px;
+    color: #242424;
+ }
+ .s-p4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 35px;
+    color: #474747;
+ }
+ .s-p5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #474747;
+ }
