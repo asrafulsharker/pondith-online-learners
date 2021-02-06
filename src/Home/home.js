@@ -10,6 +10,7 @@ import Footer from '../footer/footer';
 import Categories from '../categories/categories';
 import pondith from '../images/pondith1.png';
 import play from '../images/play.png';
+import './home.css';
 function home() {
     return (
        <>
@@ -28,10 +29,10 @@ academic and skills based courses are focused.</p>
             <div className="" style={{textAlign:"center",marginTop:"50px"}}>
             <div className="row" style={{color:"white",marginLeft: "34.5%"}}>
                 
-                <p className=""  style={{background:"",padding:"12px 12px",border:"1px solid #929191", fontSize:"12px",lineHeight:"16.34px",width:" 176.83px" ,height: "44px",cursor:"pointer"}}>START EXPLORING</p>
-                <div style={{background:"",cursor:"pointer",marginLeft:"15px",border:"1px solid #929191",padding:"12px 12px",width:" 176.83px" ,height: "44px" }} className="row">
+                <p className="ex-btn"  style={{background:"",padding:"12px 12px",border:"1px solid #929191", fontSize:"12px",lineHeight:"16.34px",width:" 176.83px" ,height: "44px",cursor:"pointer"}}>START EXPLORING</p>
+                <div   style={{background:"",cursor:"pointer",marginLeft:"15px",border:"1px solid #929191",padding:"12px 12px",width:" 176.83px" ,height: "44px" }} className="row ex-btn ">
                     <img  style={{height:"14px",marginLeft:"18px",marginTop:"2px"}} src={play}/>
-                    <p style={{ fontSize:"12px",lineHeight:"16.34px",marginLeft:"10px",cursor:"pointer"}}>WATCH VIDEO</p>
+                    <p  style={{ fontSize:"12px",lineHeight:"16.34px",marginLeft:"10px",cursor:"pointer"}}>WATCH VIDEO</p>
                 </div>
             </div>
             </div>
