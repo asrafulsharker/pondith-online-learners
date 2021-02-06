@@ -8,7 +8,7 @@ function nav() {
     return (
         <div className="col-md-12 nav-bg" style={{zIndex:"9999",position:"fixed",background:"#1C1C1C",height:"72px"}} >
            <Navbar  expand="lg">
-  <Navbar.Brand href="#home" className=""><img style={{height:"80px",width:"180px",marginTop:"-16px"}} src={logo1}/></Navbar.Brand>
+  <Navbar.Brand href="#home" className=""><img style={{height:"55px",width:"166px",marginTop:"-8px"}} src={logo1}/></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" style={{background:"white"}}/>
   <Navbar.Collapse id="basic-navbar-nav"  style={{marginTop:"px"}}>
     <Nav className="ml-auto">
