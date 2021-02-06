@@ -8,8 +8,8 @@ import Facebook from '../images/facebook.png';
 import Twter from '../images/twter.png';
 function footer() {
     return (
-        <div style={{padding:"80px 0px",borderBottom:"70px solid #151515"}}>
-            <div className="container">
+        <div style={{padding:"80px 200px",borderBottom:"70px solid #151515"}}>
+            
                 <div className="row">
                     <div className="col-md-3">
                         <img className="logo" src={logo}/>
@@ -72,13 +72,13 @@ function footer() {
                         Explore Marketplace
                         </p>
                         </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 mr-auto" style={{textAlign:"right"}}>
                         <p className="f-p2">Download App</p>
                         <img style={{width:"220px",paddingTop:"10px"}} src={PlayStore}/>
                         <img style={{width:"220px",paddingTop:"10px"}} src={AppleStore}/>
                         </div>
                 </div>
-            </div>
+          
         </div>
     )
 }
