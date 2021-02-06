@@ -9,16 +9,16 @@ import './platform.css';
 function platform() {
     return (
         <div className="hero-platform" style={{paddingBottom:""}}>
-                <img className="ani1" src={Ani1}/>
-                <img className="ani3"src={Ani3}/>
-                <img className="ani4"src={Ani4}/>
-                <img className="ani5"src={Ani5}/>
-                <div className="ani6"></div>
+                <img style={{width:"45px",height:"45px"}} className="ani1" src={Ani1}/>
+                <img style={{width:"45px",height:"45px"}}  className="ani3"src={Ani3}/>
+                <img style={{width:"45px",height:"75px"}}   className="ani4"src={Ani4}/>
+                <img style={{width:"45px",height:"45px"}}  className="ani5"src={Ani5}/>
+                <div style={{width:"35px",height:"35px"}}  className="ani6"></div>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">
                        <div className="col-md-10">
-                       <img src={PlatformImg}style={{marginTop:"200px",marginBottom:"10px",height:"100%",width:"100%"}}/>
+                       <img src={PlatformImg}style={{marginTop:"250px",marginBottom:"10px",height:"110%",width:"110%"}}/>
                        </div>
                     </div>
                     <div className="col-md-6 ml-auto">
