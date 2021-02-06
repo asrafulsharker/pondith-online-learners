@@ -93,3 +93,9 @@ label{
     margin-left: 30px;
     margin-right:40px;
 }
+
+.nav-bg{
+    box-shadow: 0px 10px 9px -8px rgba(0,0,0,0.79);
+-webkit-box-shadow: 0px 10px 9px -8px rgba(0,0,0,0.79);
+-moz-box-shadow: 0px 10px 9px -8px rgba(0,0,0,0.79);
+}

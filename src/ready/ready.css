@@ -22,3 +22,10 @@ padding-bottom: 100px;
     margin-left: 340px;
     margin-top: 96px;
 }
+
+.ready-bg-img{
+    background-image: url(../images/pondith-bg2.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center; 
+    margin-top: 46px;
+}
