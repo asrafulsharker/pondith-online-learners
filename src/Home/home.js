@@ -11,7 +11,7 @@ import Categories from '../categories/categories';
 import pondith from '../images/pondith1.png';
 import play from '../images/play.png';
 import './home.css';
-function home() {
+function home() { 
     return (
        <>
        <div style={{paddingTop:"68px"}}>
