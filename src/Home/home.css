@@ -2,3 +2,6 @@
     background:#F92929;
     transition:.4s;
 }
+.bg-home{
+    background-image: url(/src/images/bg1.png);
+}

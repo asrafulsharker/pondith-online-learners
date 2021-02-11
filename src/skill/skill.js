@@ -6,7 +6,7 @@ import './skill.css';
 function skill() {
     return (
         <div>
-           <div style={{height:"50px",backgroundColor:"#282828",borderBottom:"1px solid #4A4848 "}}></div>
+           {/* <div style={{height:"50px",backgroundColor:"#282828",borderBottom:"1px solid #4A4848 "}}></div> */}
            <div className="" style={{backgroundColor:"#282828"}}>
                 <div className="container"style={{padding:"100px 0px"}}>
                     <div className="col-md-9">
