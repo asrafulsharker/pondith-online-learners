@@ -7,7 +7,7 @@ function skill() {
     return (
         <div>
            {/* <div style={{height:"50px",backgroundColor:"#282828",borderBottom:"1px solid #4A4848 "}}></div> */}
-           <div className="" style={{backgroundColor:"#282828"}}>
+           <div className="" style={{backgroundColor:"#1D1D1D"}}>
                 <div className="container"style={{padding:"100px 0px"}}>
                     <div className="col-md-9">
                         <p className="col-md-8" style={{color:"white"}}>We aim to provide best Academic and skill courses that helps learners, the 
