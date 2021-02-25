@@ -37,7 +37,7 @@ export default class MultipleItems extends Component {
         <Slider {...settings}>
         <div className="col-md-12" style={{width:"100%"}}>
           <Card className="course-sw" style={{ width: '100%' }}>
-        <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
+        <Card.Img variant="top" src={Category1} style={{padding:"2%"}} />
         <Card.Body>
         <img className="bdj"src={bestSelling}/>
           <p className="bdj-p">Trending</p>
@@ -51,20 +51,20 @@ export default class MultipleItems extends Component {
           <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
-              <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={watch} className="m-auto" style={{padding:"3px 5px",cursor:"pointer",width:"50px",height:"46px",background:"#FFE3E3",borderRadius:"5px"}}/>
+              <p  style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>4 Hours</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"9px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>400+</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Enrolled</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"5px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>Yes</p>
+          <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Certificate</p>
           </div>
              
               </div>
@@ -103,7 +103,7 @@ export default class MultipleItems extends Component {
           </div>
           <div className="col-md-12" style={{width:"100%"}}>
           <Card className="course-sw" style={{ width: '100%' }}>
-        <Card.Img variant="top" src={Category2} style={{padding:"5%"}} />
+        <Card.Img variant="top" src={Category2} style={{padding:"2%"}} />
         <Card.Body>
         <img className="bdj"src={trending}/>
           <p className="bdj-p">Trending</p>
@@ -117,20 +117,20 @@ export default class MultipleItems extends Component {
           <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
-              <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={watch} className="m-auto" style={{padding:"3px 5px",cursor:"pointer",width:"50px",height:"46px",background:"#FFE3E3",borderRadius:"5px"}}/>
+              <p  style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>4 Hours</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"9px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>400+</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Enrolled</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"5px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>Yes</p>
+          <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Certificate</p>
           </div>
              
               </div>
@@ -169,7 +169,7 @@ export default class MultipleItems extends Component {
           </div>
           <div className="col-md-12" style={{width:"100%"}}>
           <Card className="course-sw" style={{ width: '100%' }}>
-        <Card.Img variant="top" src={Category3} style={{padding:"5%"}} />
+        <Card.Img variant="top" src={Category3} style={{padding:"2%"}} />
         <Card.Body>
         <img className="bdj"src={trending2}/>
           <p className="bdj-p">Trending</p>
@@ -183,20 +183,20 @@ export default class MultipleItems extends Component {
           <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
-              <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={watch} className="m-auto" style={{padding:"3px 5px",cursor:"pointer",width:"50px",height:"46px",background:"#FFE3E3",borderRadius:"5px"}}/>
+              <p  style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>4 Hours</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"9px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>400+</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Enrolled</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"5px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>Yes</p>
+          <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Certificate</p>
           </div>
              
               </div>
@@ -235,7 +235,7 @@ export default class MultipleItems extends Component {
           </div>
           <div className="col-md-12" style={{width:"100%"}}>
           <Card className="course-sw" style={{ width: '100%' }}>
-        <Card.Img variant="top" src={Category2} style={{padding:"5%"}} />
+        <Card.Img variant="top" src={Category2} style={{padding:"2%"}} />
         <Card.Body>
         <img className="bdj"src={bestSelling}/>
           <p className="bdj-p">Best Selling</p>
@@ -249,20 +249,20 @@ export default class MultipleItems extends Component {
           <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
-              <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={watch} className="m-auto" style={{padding:"3px 5px",cursor:"pointer",width:"50px",height:"46px",background:"#FFE3E3",borderRadius:"5px"}}/>
+              <p  style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>4 Hours</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"9px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>400+</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Enrolled</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"5px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>Yes</p>
+          <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Certificate</p>
           </div>
              
               </div>
@@ -303,7 +303,7 @@ export default class MultipleItems extends Component {
 
           <div className="col-md-12" style={{width:"100%"}}>
           <Card className="course-sw" style={{ width: '100%' }}>
-        <Card.Img variant="top" src={Category3} style={{padding:"5%"}} />
+        <Card.Img variant="top" src={Category3} style={{padding:"2%"}} />
         <Card.Body>
         <img className="bdj"src={trending}/>
           <p className="bdj-p">Best Selling</p>
@@ -317,20 +317,20 @@ export default class MultipleItems extends Component {
           <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
-              <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={watch} className="m-auto" style={{padding:"3px 5px",cursor:"pointer",width:"50px",height:"46px",background:"#FFE3E3",borderRadius:"5px"}}/>
+              <p  style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>4 Hours</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"9px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>400+</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Enrolled</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"5px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>Yes</p>
+          <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Certificate</p>
           </div>
              
               </div>
@@ -369,7 +369,7 @@ export default class MultipleItems extends Component {
       </div>
           <div className="col-md-12" style={{width:"100%"}}>
           <Card className="course-sw" style={{ width: '100%' }}>
-        <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
+        <Card.Img variant="top" src={Category1} style={{padding:"2%"}} />
         <Card.Body>
         <img className="bdj"src={trending2}/>
           <p className="bdj-p">Best Selling</p>
@@ -383,20 +383,20 @@ export default class MultipleItems extends Component {
           <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
-              <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={watch} className="m-auto" style={{padding:"3px 5px",cursor:"pointer",width:"50px",height:"46px",background:"#FFE3E3",borderRadius:"5px"}}/>
+              <p  style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>4 Hours</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"9px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>400+</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Enrolled</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"5px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>Yes</p>
+          <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Certificate</p>
           </div>
              
               </div>
@@ -435,7 +435,7 @@ export default class MultipleItems extends Component {
       </div>
           <div className="col-md-12" style={{width:"100%"}}>
           <Card className="course-sw" style={{ width: '100%' }}>
-        <Card.Img variant="top" src={Category1} style={{padding:"5%"}} />
+        <Card.Img variant="top" src={Category1} style={{padding:"2%"}} />
         <Card.Body>
         <img className="bdj"src={bestSelling}/>
           <p className="bdj-p">Best Selling</p>
@@ -449,20 +449,20 @@ export default class MultipleItems extends Component {
           <div className="container ">
               <div className="row " style={{padding:"6px 40px"}}>
               <div className="m-auto">
-              <img src={watch} className="m-auto" style={{padding:"3px 7px",cursor:"pointer",width:"40px",height:"36px",background:"#FFE3E3",borderRadius:"5px"}}/>
-              <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={watch} className="m-auto" style={{padding:"3px 5px",cursor:"pointer",width:"50px",height:"46px",background:"#FFE3E3",borderRadius:"5px"}}/>
+              <p  style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>4 Hours</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Hour Required</p>
               </div>
             
               <div className="m-auto">
-              <img src={right} className="m-auto "style={{padding:"6px 9px",zIndex:"9999",cursor:"pointer",width:"40px",height:"36px",background:"#E3E7FF",borderRadius:"5px"}} />
-              <p style={{width:"40px",paddingTop:"5px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-              <p style={{width:"40px" ,textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+              <img src={right} className="m-auto "style={{padding:"9px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#E3E7FF",borderRadius:"5px"}} />
+              <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>400+</p>
+              <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Enrolled</p>
               </div>
           <div className="m-auto">
-          <img src={certificate} className="m-auto "style={{padding:"4px 9px",cursor:"pointer",width:"40px",height:"36px",background:"#FFF2E3",borderRadius:"5px"}}/>
-          <p style={{width:"40px",paddingTop:"6px",textAlign:"center",fontSize:"5px",fontWeight:"bold",lineHeight:"0px",color:"#9c9595"}}>4 Hours</p>
-          <p style={{width:"40px",textAlign:"center",fontSize:"5px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595"}}>Hour Required</p>
+          <img src={certificate} className="m-auto "style={{padding:"5px 12px",cursor:"pointer",width:"50px",height:"46px",background:"#FFF2E3",borderRadius:"5px"}}/>
+          <p style={{color:"black",paddingTop:"8px",textAlign:"center",fontSize:"10px",fontWeight:"bold",lineHeight:"0px"}}>Yes</p>
+          <p style={{textAlign:"center",fontSize:"10px",fontWeight:"normal",lineHeight:"0px",color:"#9c9595",margin:"0px auto 0px auto 0px"}}>Certificate</p>
           </div>
              
               </div>

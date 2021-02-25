@@ -24,13 +24,13 @@ function home() {
             <img  src={pondith}/>
             <p style={{color:"white",marginTop:"20px",lineHeight:"34.45px",fontSize:"36px",fontWeight:"500"}}>Learn. Experience. Explore</p>
             <p className="col-md-9 m-auto" style={{color:"white",marginTop:"30px",lineHeight:"21.09px",fontWeight:"400",fontSize:"18px"}}>Pondith - Online Learners’ is an Bangladeshi growing E-learning platform that offer online courses,
-academic and skills based courses are focused.</p>
+            academic and skills based courses are focused.</p>
 
 
             <div className="" style={{textAlign:"center",marginTop:"50px"}}>
             <div className="row" style={{color:"white",marginLeft: "34.5%"}}>
                 
-                <p className="ex-btn"  style={{background:"",padding:"12px 12px",border:"1px solid #929191", fontSize:"12px",lineHeight:"16.34px",width:" 176.83px" ,height: "44px",cursor:"pointer"}}>START EXPLORING</p>
+                <p className="ex-btn"  style={{background:"",padding:"12px 12px",border:"1px solid #929191", fontSize:"12px",lineHeight:"16.34px",width:" 176.83px" ,height: "44px",cursor:"pointer"}}>EXPLORE</p>
                 <div   style={{background:"",cursor:"pointer",marginLeft:"15px",border:"1px solid #929191",padding:"12px 12px",width:" 176.83px" ,height: "44px" }} className="row ex-btn ">
                     <img  style={{height:"14px",marginLeft:"18px",marginTop:"2px"}} src={play}/>
                     <p  style={{ fontSize:"12px",lineHeight:"16.34px",marginLeft:"10px",cursor:"pointer"}}>WATCH VIDEO</p>
@@ -46,7 +46,7 @@ academic and skills based courses are focused.</p>
         </div>
         <Skill/>
         <Platform/>
-        <Categories/>
+        {/* <Categories/> */}
         <Slider/>
         <Support/>
         <Auth/>

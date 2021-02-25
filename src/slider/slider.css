@@ -16,6 +16,13 @@
 .slick-next:hover::before{
     color:#F4371D !important;
 }
+.slick-prev:focus::before{
+    color:#F4371D !important;
+}
+.slick-next:focus::before{
+    color:#F4371D !important;
+}
+
 .slick-next:before {
     position:absolute;
     color: #C4C4C4 !important;
@@ -23,6 +30,7 @@
     margin-top: -418px;
     margin-left: -210px;
 }
+
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: #C4C4C4;
@@ -58,6 +66,9 @@
     color:white !important;
     cursor: pointer;
 }
+.cart-btn:hover:active{
+    background:#FF290C !important;
+}
 .course-sw:hover  .cart-btn{
     background:#FF290C !important;
     color:white !important;
@@ -66,22 +77,24 @@
 }
 .course-sw:hover{
     box-shadow: 0px 4px 30px rgba(90, 87, 87, 0.25);
+    -webkit-box-shadow: -1px 14px 50px 14px rgba(186,186,186,0.82); 
+    box-shadow: 2px 16px 50px -22px rgba(196,196,196,0.7);
     cursor: pointer;
 }
 .bdj{
     position:absolute;
-    margin-top: -59px;
+    margin-top: -46px;
     margin-left: -23px;
 }
 .bdj-p{
     position:absolute;
-    margin-top: -47px;
+    margin-top: -35px;
     margin-left: -9px;
     font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 11px;
-line-height: 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 12px;
 
 color: #FFFCFC;
 
