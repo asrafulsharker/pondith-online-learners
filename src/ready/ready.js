@@ -14,7 +14,7 @@ function ready() {
                             and can share their knowledge.</p>
                         </div>
                         <div className="col-md-6 ready-bg-img">
-                       <div className="mr-auto" style={{marginTop:"145px"}}>
+                       <div className="mr-auto" style={{marginTop:"115px"}}>
                        <p className="" style={{textAlign:"center"}}><a  href="#" style={{color:"white",marginLeft: "80px",textDecoration:"none",background:"#FF290C",textAlign:"center",padding:"18px 30px",fontWeight:"bold",fontSize:"24px",lineHeight:"28px",borderRadius:"20px"}}>Register Now</a></p>
                        </div>
                         </div>

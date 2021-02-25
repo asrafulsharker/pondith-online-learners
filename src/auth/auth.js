@@ -4,7 +4,7 @@ function auth() {
     return (
         <div style={{padding:"50px"}}>
             <div className="container">
-                <div style={{padding:"80px"}}>
+                <div style={{padding:"20px 0px 60px 0px"}}>
                 <p className="m-auto" style={{textAlign:"center",marginTop:"50px"}}><a  href="#" style={{color:"white",textDecoration:"none",background:"#FF290C",textAlign:"center",padding:"20px 40px",fontWeight:"bold",fontSize:"24px",lineHeight:"28px",borderRadius:"20px"}}>Join Session</a></p>
                 </div>
                     <div className="row">
