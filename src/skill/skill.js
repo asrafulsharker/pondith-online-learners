@@ -23,13 +23,13 @@ function skill() {
                                 </div>
                                 <div className="col-md-4"style={{marginLeft:"0px",paddingTop:"15px"}} >
                                     <img src={Skill2} style={{height:"80px"}}/>
-                                    <p style={{color:"white" ,fontSize: "18px",width:"245px",paddingTop:"15px"}}>Learn skills with the best
-                                     instructor.</p>
+                                    <p style={{color:"white" ,fontSize: "18px",width:"245px",paddingTop:"15px"}}>Enrich your problem solving
+                                    skills.</p>
                                 </div>
                                 <div className="col-md-4 " style={{marginLeft:"0px",paddingTop:"15px"}}>
                                     <img src={Skill3} style={{height:"80px"}}/>
-                                    <p style={{color:"white" ,fontSize: "18px",width:"245px",paddingTop:"15px"}}>Learn skills with the best
-                                     instructor.</p>
+                                    <p style={{color:"white" ,fontSize: "18px",width:"245px",paddingTop:"15px"}}>Develop your communication
+                                    and language skills.</p>
                                 </div>
                             </div>
                     </div>

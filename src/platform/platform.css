@@ -1,6 +1,6 @@
 .platform-btn1{
     text-align: right;
-    background:#FFE8D2;
+    background: rgba(249, 249, 249, 0.1);
    padding: 14.5px 15px;
    margin-left: 10px;
    font-family: Open Sans;
@@ -12,7 +12,7 @@ line-height: 25px;
 
 text-align: right;
 
-color: #000000;
+color: #ffff;
 cursor: pointer;
 transition:.4s;
 width: 205px;

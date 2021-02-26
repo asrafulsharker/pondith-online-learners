@@ -102,3 +102,6 @@ color: #FFFCFC;
 .cardBody{
     position: relative;
 }
+.card-body{
+    padding:20px 20px 5px 20px !important;
+}
