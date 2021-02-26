@@ -10,16 +10,21 @@ import Footer from '../footer/footer';
 import Categories from '../categories/categories';
 import pondith from '../images/pondith1.png';
 import play from '../images/play.png';
+import HeroRobot from '../images/hero2.png';
 import './home.css';
 function home() { 
     return (
        <>
-       <div  style={{paddingTop:"68px"}}>
+       <div  style={{paddingTop:"68px"}} >
+
            <div className="bg-home">
-       <div className="bg-home" style={{background: "rgba(85, 4, 4, 0.5)",height:"64px",borderBottom:"1px solid #4A4848 "}}>
+       <div className="bg-home" style={{background: "rgba(57, 55, 55, 0.7)",height:"64px",borderBottom:"1px solid #4A4848 "}}>
+       <div className="hero-robot">
+               <img src={HeroRobot}/>
+           </div>
             <p style={{textAlign:"center",color:"white",padding:"10px",paddingTop:"20px"}} className="container">Pondith - Online Learners’ is an Bangladeshi growing E-learning platform</p>
         </div>
-       <div className="home" style={{textAlign:"center",padding:"100px",background: "rgba(85, 4, 4, 0.5)",}}>
+       <div className="home" style={{textAlign:"center",padding:"150px 100px ",background: "rgba(57, 55, 55, 0.7)",}}>
         <div className="container" >
             <img  src={pondith}/>
             <p style={{color:"white",marginTop:"20px",lineHeight:"34.45px",fontSize:"36px",fontWeight:"500"}}>Learn. Experience. Explore</p>
@@ -40,9 +45,9 @@ function home() {
 
         </div>
         </div>
-        <div className="bg-home" style={{background: "rgba(85, 4, 4, 0.5)",height:"64px",borderTop:"1px solid #4A4848 "}}>
+        {/* <div className="bg-home" style={{background: "rgba(85, 4, 4, 0.5)",height:"64px",borderTop:"1px solid #4A4848 "}}>
             
-        </div>
+        </div> */}
         </div>
         <Skill/>
         <Platform/>
