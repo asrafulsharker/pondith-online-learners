@@ -7,6 +7,7 @@ import Auth from '../auth/auth';
 import Review from '../s_review/review';
 import Ready from '../ready/ready';
 import EasyLearning from '../easy-learning/easyLearning';
+import BonusLearning from '../bonusLearning/bonusLearning';
 import Footer from '../footer/footer';
 import Categories from '../categories/categories';
 import pondith from '../images/pondith1.png';
@@ -55,6 +56,7 @@ function home() {
         {/* <Categories/> */}
         <EasyLearning/>
         <Slider/>
+        <BonusLearning/>
         <Support/>
         <Auth/>
         <Review/>

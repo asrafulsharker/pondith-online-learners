@@ -1,0 +1,63 @@
+.bonus-sm-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #0C0C0C;
+}
+.bonus-bg-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+.bonus-div{
+    align-items: center;
+    width: 297px;
+    height: 192px;
+    
+}
+.bonus-img{
+    align-items: center;
+    width: 297px;
+    height: 192px;
+    margin-top: 30px;
+}
+.bonus-sm-img{
+    width: 35px;
+    height: 35px;
+    margin:0px 10px ;
+}
+.bonus-bg-img-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #272626;
+    line-height: 14px;
+}
+.bonus-sm-img-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    color: #494848;
+    margin-bottom: 0rem !important;
+    line-height: 11px;
+}
+.bonus-sm-div{
+    background: #FFFFFF;
+    box-shadow: 6px 6px 5px -2px rgba(166, 165, 165, 0.15), -6px -6px 4px -2px rgba(136, 132, 132, 0.15);
+    border-radius: 11px;
+    padding: 20px 25px;
+    margin-left: 30px;
+
+}
+.bonus-smp{
+    padding-left: 15px;
+}
