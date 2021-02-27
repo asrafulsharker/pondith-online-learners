@@ -5,7 +5,7 @@ import Earth from '../images/earth.png';
 import Install from '../images/install.png';
 function easyLearning() {
     return (
-        <div>
+        <div style={{background:"#E5E5E5"}}>
             <p style={{color:"#686868",textAlign:"center",fontSize:"36px",fontWeight:"bold",padding:"50px 0px 30px 0px"}}>Learning is now more easy</p>
             <div className="container">
                 <div className="row easy" >

@@ -8,7 +8,7 @@ function auth() {
                 <p className="m-auto" style={{textAlign:"center",marginTop:"50px"}}><a  href="#" style={{color:"white",textDecoration:"none",background:"#FF290C",textAlign:"center",padding:"20px 40px",fontWeight:"bold",fontSize:"24px",lineHeight:"28px",borderRadius:"20px"}}>Join Session</a></p>
                 </div>
                     <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                     <p style={{fontSize:"24px",lineHeight:"28px"}}>Confirm your Presence</p>
                     <form >
                         <input   type="text" name="text" style={{paddingLeft:"15px",marginTop:"10px",height:"58px",width:"549px"}} placeholder="Your Name"  required/>
@@ -17,8 +17,8 @@ function auth() {
                         <button type="submit" style={{marginTop:"10px",height:"58px",width:"549px",border:"none",color:"white",background:" #FF290C"}}>Submit</button>
                     </form>
                 </div>
-                <div className="col-md-6">
-                    <img className="mr-auto" style={{height:"332px",width:"324px" , marginLeft: "206px"}} src={Auth1}/>
+                <div className="col-md-7">
+                    <img className="mr-auto" style={{height:"456px",width:"531px" , marginLeft: "206px"}} src={Auth1}/>
                 </div>
                     </div>
             </div>

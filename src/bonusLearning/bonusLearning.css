@@ -6,6 +6,7 @@
     line-height: 14px;
     text-align: center;
     color: #0C0C0C;
+    padding-top: 15px;
 }
 .bonus-bg-p{
     font-family: Roboto;
@@ -27,19 +28,20 @@
     width: 297px;
     height: 192px;
     margin-top: 30px;
+    margin-top: 30px;
 }
 .bonus-sm-img{
     width: 35px;
     height: 35px;
-    margin:0px 10px ;
+    margin:0px 0px ;
 }
 .bonus-bg-img-p{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 18px;
     color: #272626;
-    line-height: 14px;
+    line-height: 17px;
 }
 .bonus-sm-img-p{
     font-family: Roboto;
@@ -54,8 +56,8 @@
     background: #FFFFFF;
     box-shadow: 6px 6px 5px -2px rgba(166, 165, 165, 0.15), -6px -6px 4px -2px rgba(136, 132, 132, 0.15);
     border-radius: 11px;
-    padding: 20px 25px;
-    margin-left: 30px;
+    padding: 17px 25px;
+    /* margin-left: 30px; */
 
 }
 .bonus-smp{

@@ -22,7 +22,8 @@ export default class MultipleItems extends Component {
       slidesToScroll: 3
     };
     return (
-      <div className="container" style={{padding:"80px 5px"}}>
+      <div style={{background:"#E5E5E5"}}>
+<div className="container" style={{padding:"80px 5px"}} >
           <div className="row" style={{padding:"10px",paddingBottom:"40px"}}>
           <div className="col-md-2">
           <h2 style={{fontSize:"24px",fontWeight:"bold",lineHeight:"23px",color:"#5E5555"}}> Best Selling<br/>
@@ -501,6 +502,8 @@ export default class MultipleItems extends Component {
           </div>
         </Slider>
       </div>
+      </div>
+      
     );
   }
 }

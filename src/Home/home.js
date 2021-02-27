@@ -55,7 +55,7 @@ function home() {
         <Platform/>
         {/* <Categories/> */}
         <EasyLearning/>
-        <Slider/>
+        <Slider />
         <BonusLearning/>
         <Support/>
         <Auth/>
