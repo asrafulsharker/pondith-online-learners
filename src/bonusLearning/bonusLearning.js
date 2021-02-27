@@ -5,6 +5,8 @@ import Play from '../images/bonusPlay.png';
 import BonusHeadphone from '../images/bonusHeadphone.png';
 import Quiz from '../images/BonusQuiz.png';
 import Blog from '../images/bonusBlogs.png';
+
+import CountUp from 'react-countup';
 function bonusLearning() {
     return (
         <div style={{background:"#FAFAFA"}}>
@@ -24,7 +26,7 @@ function bonusLearning() {
                             <div className="row" style={{paddingLeft:"0px",margin:"10px"}}>
                                 <img className="bonus-sm-img " src={Play} />
                                 <div className="bonus-smp">
-                                    <p className="bonus-bg-img-p" style={{marginBottom:"0rem" ,color:"#FF1C1C"}}>1,200+<br/> <span className="bonus-sm-img-p">Video Tutorial</span></p>
+                                    <p className="bonus-bg-img-p" style={{marginBottom:"0rem" ,color:"#FF1C1C"}}><CountUp end={1200} duration={35} />+<br/> <span className="bonus-sm-img-p">Video Tutorial</span></p>
                                     
                                 </div>
                             </div>
@@ -35,7 +37,7 @@ function bonusLearning() {
                             <div className="row" style={{paddingLeft:"0px",margin:"10px"}}>
                                 <img className="bonus-sm-img " src={BonusHeadphone} />
                                 <div className="bonus-smp">
-                                    <p className="bonus-bg-img-p" style={{marginBottom:"0rem" ,color:"#00CDFC"}}>1,200+<br/> <span className="bonus-sm-img-p">Video Tutorial</span></p>
+                                    <p className="bonus-bg-img-p" style={{marginBottom:"0rem" ,color:"#00CDFC"}}><CountUp end={500} duration={35} />+<br/> <span className="bonus-sm-img-p">Video Tutorial</span></p>
                                     
                                 </div>
                             </div>
@@ -46,7 +48,7 @@ function bonusLearning() {
                             <div className="row" style={{paddingLeft:"0px",margin:"10px"}}>
                                 <img className="bonus-sm-img " src={Quiz} />
                                 <div className="bonus-smp">
-                                    <p className="bonus-bg-img-p" style={{marginBottom:"0rem" ,color:"#00FF69"}}>1,200+<br/> <span className="bonus-sm-img-p">Video Tutorial</span></p>
+                                    <p className="bonus-bg-img-p" style={{marginBottom:"0rem" ,color:"#00FF69"}}><CountUp end={155} duration={35} />+<br/> <span className="bonus-sm-img-p">Video Tutorial</span></p>
                                     
                                 </div>
                             </div>
@@ -57,7 +59,7 @@ function bonusLearning() {
                             <div className="row" style={{paddingLeft:"0px",margin:"10px"}}>
                                 <img className="bonus-sm-img " src={Blog} />
                                 <div className="bonus-smp">
-                                    <p className="bonus-bg-img-p" style={{marginBottom:"0rem" ,color:"#FFAB07"}}>1,200+<br/> <span className="bonus-sm-img-p">Video Tutorial</span></p>
+                                    <p className="bonus-bg-img-p" style={{marginBottom:"0rem" ,color:"#FFAB07"}}><CountUp end={1200} duration={35} />+<br/> <span className="bonus-sm-img-p">Video Tutorial</span></p>
                                     
                                 </div>
                             </div>

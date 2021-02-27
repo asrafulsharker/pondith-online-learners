@@ -47,6 +47,9 @@ function home() {
 
         </div>
         </div>
+        <div className="bg-home" style={{background: "rgba(57, 55, 55, 0.7)",height:"64px",borderTop:"1px solid #4A4848 "}}>
+            <p style={{textAlign:"center",color:"white",padding:"10px",paddingTop:"20px"}} className="container">Best marketplace where you Teach, Learn and Earn.</p>
+        </div>
         {/* <div className="bg-home" style={{background: "rgba(85, 4, 4, 0.5)",height:"64px",borderTop:"1px solid #4A4848 "}}>
             
         </div> */}

@@ -1,5 +1,5 @@
 .nav-btn{
-    padding: 8px 13px !important;
+    padding: 6px 16px !important;
     background:#FF1C1C !important;
     line-height: 30.41px !important;
     font-size: 18px !important;
@@ -56,7 +56,6 @@ input[type="checkbox"]::before{
     position: absolute;
     content: "";
     left:0;
-  
     width: 25px;
     height: 25px;
     background:#fff;
@@ -82,11 +81,13 @@ label{
 .onbtn{
     bottom: -1px;
     left: 6px;
+    font-size: 12px;
 }
 .ofbtn{
     bottom: -1px;
     right: 7px;
     color: #34495e;
+    font-size: 12px;
 }
 
 .toggleBox{
