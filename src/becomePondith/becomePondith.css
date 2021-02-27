@@ -1,0 +1,30 @@
+.become-img{
+    width: 387px;
+    height: 250px
+}
+.become-btn{
+    width: 175px;
+    height: 37px;
+    left: 889px;
+    top: 2149px;
+    background: #FF290C;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF !important;
+    text-decoration: none;
+    padding:11px 20px;
+    margin: auto auto;
+}
+.become-main-div{
+    background: linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.863)), url('../images/becomePondith.png');
+    background-repeat: no-repeat;
+    width: 100% !important;
+    background-position: center;
+    background-size: cover;
+    color:white !important;
+    padding: 100px 0px 80px 0px;
+}

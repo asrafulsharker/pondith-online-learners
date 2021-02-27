@@ -6,7 +6,7 @@ import lani3 from '../images/lani3.png';
 import './support.css';
 function support() {
     return (
-        <div className="support" style={{margin:"50px",background:"#FFF3F3",borderRadius:"81px"}}>
+        <div className="support " style={{margin:"80px 180px",background:"#FFF3F3",borderRadius:"81px"}}>
             <div className="container" style={{background:"#FFF3F3",borderRadius:"81px"}}>
                 <div  className="container">
                 <img className="lani1" src={lani1}/>

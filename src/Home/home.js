@@ -6,6 +6,7 @@ import Support from '../support/support';
 import Auth from '../auth/auth';
 import Review from '../s_review/review';
 import Ready from '../ready/ready';
+import BecomePondith from '../becomePondith/becomePondith';
 import EasyLearning from '../easy-learning/easyLearning';
 import BonusLearning from '../bonusLearning/bonusLearning';
 import Footer from '../footer/footer';
@@ -63,6 +64,7 @@ function home() {
         <Support/>
         <Auth/>
         <Review/>
+        <BecomePondith/>
         <Ready/>
         <Footer/>
        </div>
