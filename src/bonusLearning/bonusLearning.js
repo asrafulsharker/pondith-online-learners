@@ -7,7 +7,7 @@ import Quiz from '../images/BonusQuiz.png';
 import Blog from '../images/bonusBlogs.png';
 function bonusLearning() {
     return (
-        <div style={{background:"#F8F8F8"}}>
+        <div style={{background:"#FAFAFA"}}>
             <div className="container">
                 <div className="col-md-6 m-auto">
                     <p className="bonus-bg-p">Bonus from our learnings</p>
