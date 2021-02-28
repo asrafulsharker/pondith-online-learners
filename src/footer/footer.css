@@ -1,24 +1,30 @@
-.log{
-    width: 279px;
-height: 157px;
-left: 161px;
-top: 3482px;
+.logo{
+    width: 220px;
+    height: 130px;
+    padding: 0px 0px 50px 0px
 }
 .f-p1{
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-padding-top:19px ;
-color: #262626;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
 .f-p2{
     font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer-bg{
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    height: 647px;
+    color:white !important;
+    width:100% !important;
 }

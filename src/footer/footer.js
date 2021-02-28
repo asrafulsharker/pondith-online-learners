@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css';
-import logo from '../images/logo3.png';
+import logo from '../images/logo1.png';
 import PlayStore from '../images/playstore.png';
 import AppleStore from '../images/applestore.png';
 import Google from '../images/google.png';
@@ -8,7 +8,7 @@ import Facebook from '../images/facebook.png';
 import Twter from '../images/twter.png';
 function footer() {
     return (
-        <div style={{padding:"80px 200px",borderBottom:"70px solid #151515"}}>
+        <div className="footer-bg" style={{padding:"80px 200px",borderBottom:"70px solid #FF290C"}}>
             
                 <div className="row">
                     <div className="col-md-3">
