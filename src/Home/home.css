@@ -12,7 +12,23 @@
 }
 .hero-robot{
     margin-left: 1383px;
-    margin-top: 70px;
-    position: fixed;
+    margin-top: 317px;
+    position: absolute;
     z-index: 9999;
 }
+@media only screen and (max-width: 1440px) {
+    .hero-robot{
+        margin-left: 913px;
+        margin-top: 317px;
+        position: absolute;
+        z-index: 9999;
+    }
+  }
+  @media only screen and (max-width: 1280px) {
+    .hero-robot{
+        margin-left: 755px;
+        margin-top: 317px;
+        position: absolute;
+        z-index: 9999;
+    }
+  }
