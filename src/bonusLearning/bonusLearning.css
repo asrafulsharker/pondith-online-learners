@@ -54,11 +54,9 @@
 }
 .bonus-sm-div{
     background: #FFFFFF;
-    box-shadow: 6px 6px 5px -2px rgba(166, 165, 165, 0.15), -6px -6px 4px -2px rgba(136, 132, 132, 0.15);
+    box-shadow: 6px 6px 5px -2px rgba(166, 165, 165, 0.15);
     border-radius: 11px;
     padding: 17px 25px;
-    /* margin-left: 30px; */
-
 }
 .bonus-smp{
     padding-left: 15px;
