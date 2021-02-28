@@ -8,7 +8,7 @@ import Facebook from '../images/facebook.png';
 import Twter from '../images/twter.png';
 function footer() {
     return (
-        <div className="footer-bg" style={{padding:"80px 200px",borderBottom:"70px solid #FF290C"}}>
+        <div className="footer-bg" style={{padding:"80px 200px",borderBottom:"25px solid #FF290C"}}>
             
                 <div className="row">
                     <div className="col-md-3">

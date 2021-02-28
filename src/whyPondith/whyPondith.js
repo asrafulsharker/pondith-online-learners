@@ -5,7 +5,7 @@ import WhyPondithImg from '../images/whyPondith.png';
 import './whyPondith.css';
 function whyPondith() {
     return (
-        <div style={{ padding:"80px 0px 40px 0px"}}>
+        <div style={{ padding:"80px 0px 0px 0px"}}>
             <div className="container">
                 <div className="row">
                 <div className="col-md-6">
