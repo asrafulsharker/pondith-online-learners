@@ -3,6 +3,7 @@ import storiesImg1 from '../images/storiesImg1.png';
 import storiesImg2 from '../images/storiesImg2.png';
 import storiesImg3 from '../images/storiesImg3.png';
 import storiesImg4 from '../images/storiesImg4.png';
+import Comma from '../images/comma.png';
 import './review.css';
 function review() {
     return (
@@ -12,6 +13,24 @@ function review() {
                 <div className="row">
                     <div className="col-md-4">
                         <img src={storiesImg1}/>
+                        <div className="success-sm-text">
+                            <img className="success-div-img" src={Comma}/>
+                            <div className="success-full-div">
+                                <div className="row success-star">
+                                    <i  style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star"/>
+                                    <i  style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star"></i>
+                                    <i  style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star"></i>
+                                    <i  style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star-half-full"></i>
+                                    <i style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star-o"></i>
+                                </div>
+                                <p className="success-text-p">Learn with Aaron Draplin, Jessica Hische, Roxane Gay, Simon Sinek, 
+                                and thousands of acclaimed creators eager to share their knowledge 
+                                with you. Learn with Aaron Draplin, Jessica Hische, Simon Sinek, and 
+                                thousands of acclaimed creators eager  to share their knowledge with
+                                you. Read More <a href="#">Read More</a></p>
+                                <p className="teacher-success-text">Ahsan Faruque <br/> <span className="teacher-sm-text">UI/UX Designer</span></p>
+                            </div>
+                        </div>
                     </div>
                     <div className="col-md-5 m-auto">
                         <p className="success-top-p">My Success Stories</p>
