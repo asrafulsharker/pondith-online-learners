@@ -13,9 +13,9 @@
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 35px;
     color: #201F1F;
-    margin-bottom: 75px;
+    margin-bottom: 45px;
 }
 .why-sm-img{
     width: 41px;
@@ -26,18 +26,19 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 18px;
+    line-height: 21px;
     /* identical to box height */
     color: #201F1F;
+    padding-top: 12px;
 }
 .why-sm-img-p{
     font-family: Roboto;
     font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 18px;
-    /* identical to box height */
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
     color: #201F1F;
-    margin-left: 17px;
+    margin-left: 14px;
+    margin-top: 25px;
 }
