@@ -20,10 +20,10 @@ function review() {
                         to share their knowledge with you
 
                         </p>
-                        <div className="col-md-3 ml-auto">
-                        <img  src={storiesImg2}/><br/>
-                        <img src={storiesImg3}/><br/>
-                        <img src={storiesImg4}/>
+                        <div className="col-md-3 success-sm-div ml-auto">
+                        <img className="success-sm-img" src={storiesImg2}/><br/>
+                        <img className="success-sm-img" src={storiesImg3}/><br/>
+                        <img className="success-sm-img" src={storiesImg4}/>
                         </div>
                     </div>
                 </div>
