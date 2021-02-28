@@ -14,13 +14,13 @@ function review() {
                         <img src={storiesImg1}/>
                     </div>
                     <div className="col-md-5 m-auto">
-                        <p>My Success Stories</p>
-                        <p>Learn with Aaron Draplin, Jessica Hische, Roxane Gay, <br/>
+                        <p className="success-top-p">My Success Stories</p>
+                        <p className="success-bg-p">Learn with Aaron Draplin, Jessica Hische, Roxane Gay, <br/>
                         Simon Sinek, and thousands of acclaimed creators eager <br/>
                         to share their knowledge with you
 
                         </p>
-                        <div className="col-md-4 ml-auto">
+                        <div className="col-md-3 ml-auto">
                         <img  src={storiesImg2}/><br/>
                         <img src={storiesImg3}/><br/>
                         <img src={storiesImg4}/>
