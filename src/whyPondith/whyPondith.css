@@ -1,0 +1,43 @@
+.why-top-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FF290C;
+    line-height: 18px;
+}
+.why-bg-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #201F1F;
+    margin-bottom: 75px;
+}
+.why-sm-img{
+    width: 41px;
+    height: 41px;
+    margin-left: 16px;
+}
+.why-bg-img-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #201F1F;
+}
+.why-sm-img-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #201F1F;
+    margin-left: 17px;
+}

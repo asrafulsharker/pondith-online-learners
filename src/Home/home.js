@@ -66,8 +66,8 @@ function home() {
         <Auth/>
         <Review/>
         <BecomePondith/>
-        <Ready/>
         <WhyPondith/>
+        <Ready/>
         <Footer/>
        </div>
        </>
