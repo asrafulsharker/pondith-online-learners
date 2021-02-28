@@ -11,7 +11,8 @@
     
 }
 .hero-robot{
-    margin-left: 1605px;
-    margin-top: 250px;
-    position:absolute;
+    margin-left: 1383px;
+    margin-top: 70px;
+    position: fixed;
+    z-index: 9999;
 }

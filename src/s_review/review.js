@@ -7,8 +7,8 @@ import './review.css';
 function review() {
     return (
         <div style={{background:"#f8f8f8"}}>
-            <div className="container" style={{padding:"190px 0px"}}>
-                <p>From our Learners</p>
+            <div className="container" style={{padding:"80px 0px"}}>
+                <p className="success-p">From our Learners</p>
                 <div className="row">
                     <div className="col-md-4">
                         <img src={storiesImg1}/>
@@ -18,12 +18,11 @@ function review() {
                         <p className="success-bg-p">Learn with Aaron Draplin, Jessica Hische, Roxane Gay, <br/>
                         Simon Sinek, and thousands of acclaimed creators eager <br/>
                         to share their knowledge with you
-
                         </p>
                         <div className="col-md-3 success-sm-div ml-auto">
-                        <img className="success-sm-img" src={storiesImg2}/><br/>
-                        <img className="success-sm-img" src={storiesImg3}/><br/>
-                        <img className="success-sm-img" src={storiesImg4}/>
+                            <img className="success-sm-img" src={storiesImg2}/><br/>
+                            <img className="success-sm-img" src={storiesImg3}/><br/>
+                            <img className="success-sm-img" src={storiesImg4}/>
                         </div>
                     </div>
                 </div>

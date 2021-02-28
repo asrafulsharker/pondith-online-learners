@@ -1,3 +1,13 @@
+.success-p{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: center;
+   padding-bottom: 50px;
+   color: #000000;
+}
 .success-sm-div{
    margin-top: 60px;
 }
@@ -12,6 +22,7 @@
    line-height: 28px;
    color: #000000;
    text-align: right;
+   padding-bottom: 8px;
 }
 .success-bg-p{
    font-family: Roboto;
