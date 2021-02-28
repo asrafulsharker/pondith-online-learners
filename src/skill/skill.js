@@ -18,7 +18,7 @@ function skill() {
                             <div className="row">
                                 <div className="col-md-4"style={{marginLeft:"0px",paddingTop:"15px"}} >
                                     <img src={Skill1} className="skill-sm-img"/>
-                                    <p className="skill-sm-img-p">Learn skills with the best
+                                    <p className="skill-sm-img-p" style={{color:"#D6E53B"}}>Learn skills with the best
                                     instructor.</p>
                                     <p className="skill-sm-sm-p">We aim to provide best Academic and skill courses that helps learners, 
                                     the teachers also can become an instructor in Pondith - Online Learners’ 
@@ -26,7 +26,7 @@ function skill() {
                                 </div>
                                 <div className="col-md-4"style={{marginLeft:"0px",paddingTop:"15px"}} >
                                     <img src={Skill2} className="skill-sm-img"/>
-                                    <p className="skill-sm-img-p">Enrich your problem solving
+                                    <p className="skill-sm-img-p"  style={{color:"#EC801B"}}>Enrich your problem solving
                                     skills.</p>
                                     <p className="skill-sm-sm-p">We aim to provide best Academic and skill courses that helps learners, 
                                     the teachers also can become an instructor in Pondith - Online Learners’ 
@@ -34,7 +34,7 @@ function skill() {
                                 </div>
                                 <div className="col-md-4 " style={{marginLeft:"0px",paddingTop:"15px"}}>
                                     <img src={Skill3} className="skill-sm-img"/>
-                                    <p className="skill-sm-img-p">Develop your communication
+                                    <p className="skill-sm-img-p" style={{color:"#28EF3C"}}>Develop your communication
                                     and language skills.</p>
                                     <p className="skill-sm-sm-p">We aim to provide best Academic and skill courses that helps learners, 
                                     the teachers also can become an instructor in Pondith - Online Learners’ 
