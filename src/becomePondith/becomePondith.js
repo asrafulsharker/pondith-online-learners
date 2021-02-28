@@ -7,10 +7,10 @@ function becomePondith() {
             <div className="container">
                 <div className="col-md-7 m-auto">
                 <div className="col-md-9 m-auto " style={{margin:"auto auto"}}>
-                    <p style={{textAlign:"center",fontSize:"24px", lineHeight:"28px",fontWeight:"900"}}>Become A Pondith</p>
+                    <p style={{textAlign:"center",fontSize:"24px", lineHeight:"28px",fontWeight:"900",fontFamily:"Roboto"}}>Become A Pondith</p>
                     <img className="become-img" src={BecomeImg}/>
                 </div>
-                    <p style={{textAlign:"center"}}>Teach what you know, or lecture what you love.
+                    <p style={{textAlign:"center",padding:"42px 0px"}}>Teach what you know, or lecture what you love.
                     Teach as you want in the way that best suits your style and personality.
                     We are serving you the platform that assists you to create and sell your own online courses.</p>
                    <div className="m-auto" style={{textAlign:"center"}}>
