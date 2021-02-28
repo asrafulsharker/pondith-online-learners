@@ -9,7 +9,7 @@ function whyPondith() {
             <div className="container">
                 <div className="row">
                 <div className="col-md-6">
-                    <img src={WhyPondithImg}/>
+                    <img src={WhyPondithImg} style={{width:"90%"}}/>
                 </div>
                 <div className="col-md-5 ml-auto">
                     <p className="why-top-p">Why Pondith - Online Learners?</p>
