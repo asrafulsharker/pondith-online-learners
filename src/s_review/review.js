@@ -8,12 +8,13 @@ import './review.css';
 function review() {
     return (
         <div style={{background:"#f8f8f8"}}>
-            <div className="container" style={{padding:"80px 0px"}}>
+            <div className="container" style={{padding:"80px 0px 240px"}}>
                 <p className="success-p">From our Learners</p>
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 success-img-rep">
                         <img src={storiesImg1}/>
-                        <div className="success-sm-text">
+                            <div className="success-rep">
+                            <div className="success-sm-text">
                             <img className="success-div-img" src={Comma}/>
                             <div className="success-full-div">
                                 <div className="row success-star">
@@ -31,6 +32,7 @@ function review() {
                                 <p className="teacher-success-text">Ahsan Faruque <br/> <span className="teacher-sm-text">UI/UX Designer</span></p>
                             </div>
                         </div>
+                            </div>
                     </div>
                     <div className="col-md-5 m-auto">
                         <p className="success-top-p">My Success Stories</p>

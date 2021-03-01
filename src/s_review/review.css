@@ -40,6 +40,8 @@
    height: 311px;
    background: #FFFFFF;
    box-shadow: -4px -2px 30px rgba(150, 148, 148, 0.25);
+   margin-top: -124px;
+   margin-left: 34px;
 }
 .success-text-p{
    font-family: Roboto;
@@ -56,12 +58,14 @@
    border-right: 5px solid red;
    position: relative;
    padding-top: 102px;
-   padding: 82px 73px;
+   padding: 60px 73px 46px ;
+   background-color:white;
 }
 .success-div-img{
    position: absolute;
    margin-left: -55px;
    margin-top: -50px;
+   z-index: 999;
 }
 .teacher-success-text{
    font-family: Roboto;
@@ -70,6 +74,7 @@
    font-size: 18px;
    line-height: 21px;
    color: #000000;
+   margin-top: 30px;
 }
 .teacher-sm-text{
    font-family: Roboto;
@@ -79,4 +84,10 @@
    line-height: 14px;
    /* identical to box height */
    color: #000000;
+}
+.success-rep{
+   position: absolute;
+}
+.success-img-rep{
+position: relative;
 }
