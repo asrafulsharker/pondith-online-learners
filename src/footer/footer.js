@@ -28,9 +28,9 @@ function footer() {
                         can become an instructor in Pondith - Online 
                         Learners’ and can share their knowledges.</p>
                         <div className="row" style={{paddingTop:"20px"}}>
-                            <img style={{height:"52px",width:"48px",marginLeft:"15px"}} src={Google}/>
-                            <img style={{height:"52px",width:"48px",marginLeft:"15px"}} src={Facebook}/>
-                            <img style={{height:"52px",width:"48px",marginLeft:"15px"}} src={Twter}/>
+                            <img style={{height:"54px",width:"50px",marginLeft:"15px"}} src={Google}/>
+                            <img style={{height:"52px",width:"50px",marginLeft:"19px"}} src={Facebook}/>
+                            <img style={{height:"50px",width:"48px",marginLeft:"19px"}} src={Twter}/>
                         </div>
                     </div>
                     <div className="col-md-4 " style={{marginLeft:"auto",marginRight:"auto",padding:"0px 30px"}}>
