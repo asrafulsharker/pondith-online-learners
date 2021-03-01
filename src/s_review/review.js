@@ -21,14 +21,14 @@ function review() {
                                     <i  style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star"/>
                                     <i  style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star"></i>
                                     <i  style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star"></i>
-                                    <i  style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star-half-full"></i>
-                                    <i style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star-o"></i>
+                                    <i  style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star"></i>
+                                    <i style={{color:"#FF290C",lineHeight:"7px"}} class="fa fa-star-half-full"></i>
                                 </div>
                                 <p className="success-text-p">Learn with Aaron Draplin, Jessica Hische, Roxane Gay, Simon Sinek, 
                                 and thousands of acclaimed creators eager to share their knowledge 
                                 with you. Learn with Aaron Draplin, Jessica Hische, Simon Sinek, and 
                                 thousands of acclaimed creators eager  to share their knowledge with
-                                you. Read More <a href="#">Read More</a></p>
+                                you. Read More <a href="#" style={{color:"#FF290C",textDecoration:"none"}}>Read More</a></p>
                                 <p className="teacher-success-text">Ahsan Faruque <br/> <span className="teacher-sm-text">UI/UX Designer</span></p>
                             </div>
                         </div>

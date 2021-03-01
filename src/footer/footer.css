@@ -28,3 +28,47 @@
     color:white !important;
     width:100% !important;
 }
+.footer-md-bg-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;;
+}
+.footer-md-sm-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-btn{
+    background: #FF290C;
+    border:0;
+    width: 100%;
+    color:white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+.footer-link-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #DED6D6;
+    line-height: 10px;
+}
