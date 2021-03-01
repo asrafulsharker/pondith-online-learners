@@ -27,10 +27,10 @@ function footer() {
                         courses that helps learners, the teachers also 
                         can become an instructor in Pondith - Online 
                         Learners’ and can share their knowledges.</p>
-                        <div className="row">
-                            <img style={{height:"32px",width:"32px",marginLeft:"10px"}} src={Google}/>
-                            <img style={{height:"32px",width:"32px",marginLeft:"10px"}} src={Facebook}/>
-                            <img style={{height:"32px",width:"32px",marginLeft:"10px"}} src={Twter}/>
+                        <div className="row" style={{paddingTop:"20px"}}>
+                            <img style={{height:"52px",width:"48px",marginLeft:"15px"}} src={Google}/>
+                            <img style={{height:"52px",width:"48px",marginLeft:"15px"}} src={Facebook}/>
+                            <img style={{height:"52px",width:"48px",marginLeft:"15px"}} src={Twter}/>
                         </div>
                     </div>
                     <div className="col-md-4 " style={{marginLeft:"auto",marginRight:"auto",padding:"0px 30px"}}>
@@ -60,9 +60,9 @@ function footer() {
                     </div>
                     <div className="col-md-3 mr-auto" style={{textAlign:"right"}}>
                         <p className="f-p2">Now you can reach<br/>
-                        <a href="#">Pondith - Online Learners’</a> using</p>
-                        <img style={{width:"220px",paddingTop:"10px"}} src={PlayStore}/>
-                        <img style={{width:"220px",paddingTop:"10px"}} src={AppleStore}/>
+                        <a href="#" style={{color:"#FF290C",textDecoration:"none"}}>Pondith - Online Learners’</a> using</p>
+                        <img style={{width:"220px",paddingTop:"20px"}} src={PlayStore}/>
+                        <img style={{width:"215px",paddingTop:"20px"}} src={AppleStore}/>
                         </div>
                 </div>
                   </div>
