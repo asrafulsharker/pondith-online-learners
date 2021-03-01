@@ -22,7 +22,7 @@ function platform() {
                        </div>
                     </div>
                     <div className="col-md-6 ml-auto">
-                        <p className="ml-auto" style={{textAlign:"right",fontWeight:"bold",fontSize:"48px",lineHeight:"58px",paddingTop:"100px",color:"white",fontFamily:"Russo One",letterSpacing:"3px"}}>Learn Everything from
+                        <p className="ml-auto" style={{textAlign:"right",fontWeight:"bold",fontSize:"43px",lineHeight:"58px",paddingTop:"100px",color:"white",fontFamily:"Russo One",letterSpacing:"3px"}}>Learn Everything from
                         One Platform.</p>
                         <p style={{textAlign:"right",lineHeight:"25px",fontSize:"18px",fontWeight:"bold",paddingTop:"15px",color:"#D7D7D7"}}>We aim to provide best Academic and skill courses that helps learners, 
                         the teachers also can become an instructor in Pondith - Online Learners’ 
