@@ -20,8 +20,8 @@ function support() {
                     </div>
                     <div className="col-md-6">
                         <p style={{textAlign:"right",fontWeight:"300",fontSize:"24px",lineHeight:"28px",color:"#454545",paddingTop:"65px"}}>Looking for support?</p>
-                        <p style={{textAlign:"right",fontWeight:"500",fontSize:"64px",lineHeight:"75px",color:"#272727"}}>Lifetime Free<br/> Support</p>
-                        <p style={{textAlign:"right",fontSize:"18px",lineHeight:"21px",color:"#242424",paddingTop:"40px"}}>We aim to provide best Academic and skill courses that helps learners, 
+                        <p style={{textAlign:"right",fontWeight:"500",fontSize:"36px",lineHeight:"43px",color:"#272727",fontFamily:"Russo One"}}>Lifetime Free Support</p>
+                        <p style={{textAlign:"right",fontSize:"18px",lineHeight:"21px",color:"#242424",paddingTop:"30px"}}>We aim to provide best Academic and skill courses that helps learners, 
                             the teachers also can become an instructor in Pondith - Online Learners’ 
                             and can share their knowledges.</p>
                             <p style={{textAlign:"right",background:"#FF290C",height:"61px",width:"184px",marginTop:"60px",padding:"17px 40px",marginLeft:"340px",borderRadius:"9px",color:"white",fontSize:"18px",fontWeight:"bold",lineHight:"21px",cursor:"pointer"}}>Get Support</p>

@@ -6,7 +6,7 @@ import Install from '../images/install.png';
 function easyLearning() {
     return (
         <div style={{background:"#FAFAFA"}}>
-            <p style={{color:"#686868",textAlign:"center",fontSize:"36px",fontWeight:"bold",padding:"50px 0px 30px 0px"}}>Learning is now more easy</p>
+            <p style={{color:"#161616",textAlign:"center",fontSize:"24px",fontWeight:"bold",padding:"50px 0px 30px 0px",fontFamily:"Russo One"}}>Learning is now more easy</p>
             <div className="container">
                 <div className="row easy" >
                     <div className="col-md-6 m-auto" style={{padding:""}}>
