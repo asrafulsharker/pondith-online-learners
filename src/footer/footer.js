@@ -11,13 +11,10 @@ function footer() {
         <div>
             <div className="row">
                 <div className="col-md-7" style={{background:"#FF290C",height:"11px" , width:"100%",}}>
-
                 </div>
                 <div className="col-md-5" style={{background:"#575757",height:"11px" , width:"100%",}}>
-
                 </div>
             </div>
-
         <div className="footer-bg" style={{padding:"125px 180px 0px 180px",borderBottom:"25px solid #FF290C"}}>
 
                 <div className="row">
