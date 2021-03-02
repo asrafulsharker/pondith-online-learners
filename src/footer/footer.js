@@ -18,7 +18,7 @@ function footer() {
                 </div>
             </div>
 
-        <div className="footer-bg" style={{padding:"80px 200px",borderBottom:"25px solid #FF290C"}}>
+        <div className="footer-bg" style={{padding:"125px 180px 0px 180px",borderBottom:"25px solid #FF290C"}}>
 
                 <div className="row">
                     <div className="col-md-3">
