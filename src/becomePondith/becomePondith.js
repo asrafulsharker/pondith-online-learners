@@ -1,6 +1,7 @@
 import React,{useEffect,useRef} from 'react'
-import './becomePondith.css';
+
 import lottie from 'lottie-web';
+import './becomePondith.css';
 function BecomePondith() {
     const container = useRef(null)
 

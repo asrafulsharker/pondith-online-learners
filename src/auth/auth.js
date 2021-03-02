@@ -17,8 +17,8 @@ function auth() {
                         <button type="submit" style={{marginTop:"10px",height:"58px",width:"549px",border:"none",color:"white",background:" #FF290C"}}>Submit</button>
                     </form>
                 </div>
-                <div className="col-md-7">
-                    <img className="mr-auto" style={{ marginLeft: "170px"}} src={Auth1}/>
+                <div className="col-md-5">
+                    <img className="mr-auto" style={{ marginLeft: "170px",width:"100%"}} src={Auth1}/>
                 </div>
                     </div>
             </div>

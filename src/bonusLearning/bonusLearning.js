@@ -11,7 +11,7 @@ function bonusLearning() {
     return (
         <div style={{background:"#FAFAFA"}}>
             <div className="container">
-                <div className="col-md-6 m-auto">
+                <div className="col-md-8 m-auto">
                     <p className="bonus-bg-p">Bonus from our learnings</p>
                     <p className="bonus-sm-p">Pondith - Online Learners’ is an Bangladeshi growing E-learning platform that offer online courses,
                     academic and skills based courses are focused.</p>

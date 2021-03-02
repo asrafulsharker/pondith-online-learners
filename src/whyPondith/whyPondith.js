@@ -1,15 +1,29 @@
-import React from 'react';
+import React,{useEffect,useRef} from 'react'
+import lottie from 'lottie-web';
 import WhyWatch from '../images/whyWatch.png';
 import WhyLearn from '../images/whyLearn.png';
 import WhyPondithImg from '../images/whyPondith.png';
+
 import './whyPondith.css';
-function whyPondith() {
+function WhyPondith() {
+    const container = useRef(null)
+
+    useEffect(()=>{
+        lottie.loadAnimation({
+            container:container.current,
+            renderer:'svg',
+            loop:true,
+            autoplay:true,
+            animationData: require('./ani2.json')
+        })
+    },[])
     return (
         <div style={{ padding:"80px 0px 0px 0px"}}>
             <div className="container">
                 <div className="row">
                 <div className="col-md-6">
-                    <img src={WhyPondithImg} style={{width:"95%"}}/>
+                    {/* <img src={WhyPondithImg} style={{width:"95%"}}/> */}
+                    <div className=" m-auto" ref={container}></div>
                 </div>
                 <div className="col-md-5 ml-auto">
                     <p className="why-top-p"><span style={{color:"black"}}>Why</span> Pondith - Online Learners?</p>
@@ -37,4 +51,4 @@ function whyPondith() {
     )
 }
 
-export default whyPondith
+export default WhyPondith;
