@@ -9,13 +9,14 @@
     line-height: 18px;
 }
 .why-bg-p{
-    font-family: Roboto;
+    font-family: Russo One;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 35px;
     color: #201F1F;
     margin-bottom: 45px;
+    letter-spacing: 2.0px;
 }
 .why-sm-img{
     width: 41px;

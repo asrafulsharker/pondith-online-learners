@@ -55,11 +55,11 @@ function footer() {
                         <p className="footer-md-sm-p">Public Group - 500+ Members</p>
                         <button className="footer-btn">Join Group</button>
                     </div>
-                    <div className="col-md-3 mr-auto" style={{textAlign:"right"}}>
+                    <div className="col-md-3 " style={{textAlign:"right"}}>
                         <p className="f-p2">Now you can reach<br/>
                         <a href="#" style={{color:"#FF290C",textDecoration:"none"}}>Pondith - Online Learners’</a> using</p>
-                        <img style={{width:"220px",paddingTop:"20px"}} src={PlayStore}/>
-                        <img style={{width:"215px",paddingTop:"20px"}} src={AppleStore}/>
+                        <img style={{width:"250px",height:"112px",paddingTop:"20px"}} src={PlayStore}/>
+                        <img style={{width:"242px",height:"87px",paddingTop:"20px"}} src={AppleStore}/>
                         </div>
                 </div>
                   </div>
