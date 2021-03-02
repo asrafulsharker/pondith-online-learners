@@ -15,9 +15,68 @@
 .easy{
     box-shadow: 4px 4px 8px 17px rgba(235, 235, 235, 0.25), 0px 4px 4px rgba(207, 206, 206, 0.25);
     padding-left: 40px;
-    background:white;
+    background:rgba(255, 255, 255, 0.678) !important;
+    /* background:transparent !important; */
+    z-index: 999 !important;
 }
 .easy-img{
     width:90% !important;
+}
+.easyani1{
+    position:absolute;
+    margin-left: 1499px;
+    margin-top: 240px;
+    animation-name: easy2;
+    animation-duration: 4s ;
+    animation-delay: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+ 
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@keyframes easy2 {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
 
+@keyframes easyani2{
+    0%   { left:0px; top:0px;}
+    15%  { left:0px; top:5px;}
+    25%  { left:0px; top:0px;}
+    35%  { left:0px; top:-100px;}
+    45%  { left:0px; top:0px;}
+    55%  { left:0px; top:-50px;}
+    65%  { left:0px; top:70px;}
+    75%  { left:0px; top:0px;}
+    85%  { left:0px; top:-150px;}
+    95%  { left:0px; top:90px;}
+    100% { left:0px; top:0px;}
+}
+.easyani2{
+    position:absolute;
+    margin-top: 447px;
+    margin-left: 327px;
+    z-index:0;
+    animation-name: easyani2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.easyani3{
+    position:absolute;
+    margin-left: 614px;
+    margin-top: 96px;
+    animation-duration: 4s;
+    animation-duration: 4s ;
+    animation-delay: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
 }
