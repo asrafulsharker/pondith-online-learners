@@ -10,9 +10,7 @@ function authentication() {
                 <p>Want to become a Pondith?</p>
                 <p>We aim to provide best Academic and skill courses that helps learners,  
                 and can share their knowledges.</p>
-                   
                     <div className="col-md-12">
-                    
                     <div className="row " >
                         <div className=" " style={{height:"4px",background:"#fd08e4",width:"221px",marginLeft:"auto",marginRight:"auto"}}>
                         </div>
@@ -25,9 +23,7 @@ function authentication() {
                         <div className=" m-auto" style={{height:"4px",width:"222.5px",background:"#fd08e4"}}>
                         </div>
                     </div>
-
                 </div>
-                   
             </div>
             </div>
         </div>
