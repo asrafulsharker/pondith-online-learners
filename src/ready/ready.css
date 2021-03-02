@@ -1,12 +1,12 @@
 .r-p1{
-    font-family: Russo One;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 56px;
     padding-top: 90px;
     color: #FFFFFF;
-    letter-spacing:2.1px;
+    /* letter-spacing:2.1px; */
 }
 .r-p2{
     font-family: Roboto;

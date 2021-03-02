@@ -26,7 +26,7 @@ export default class MultipleItems extends Component {
 <div className="container" style={{padding:"80px 5px"}} >
           <div className="row" style={{padding:"10px",paddingBottom:"40px"}}>
           <div className="col-md-2">
-          <h2 style={{fontSize:"24px",fontWeight:"bold",lineHeight:"29px",color:"#353333",fontFamily: "Russo One"}}> Best Selling<br/>
+          <h2 style={{fontSize:"24px",fontWeight:"bold",lineHeight:"29px",color:"#353333",fontFamily: "Open Sans"}}> Best Selling<br/>
             Courses </h2>
           </div>
             <div className="col-md-5">

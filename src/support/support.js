@@ -20,7 +20,7 @@ function support() {
                     </div>
                     <div className="col-md-6">
                         <p style={{textAlign:"right",fontWeight:"300",fontSize:"24px",lineHeight:"28px",color:"#454545",paddingTop:"75px"}}>Looking for support?</p>
-                        <p style={{textAlign:"right",fontWeight:"500",fontSize:"36px",lineHeight:"43px",color:"#272727",fontFamily:"Russo One"}}>Lifetime Free Support</p>
+                        <p style={{textAlign:"right",fontWeight:"700",fontSize:"36px",lineHeight:"43px",color:"#272727",fontFamily:"Open Sans"}}>Lifetime Free Support</p>
                         <p style={{textAlign:"right",fontSize:"18px",lineHeight:"21px",color:"#242424",paddingTop:"30px"}}>We aim to provide best Academic and skill courses that helps learners, 
                             the teachers also can become an instructor in Pondith - Online Learners’ 
                             and can share their knowledges.</p>

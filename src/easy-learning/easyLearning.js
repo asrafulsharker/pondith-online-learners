@@ -13,7 +13,7 @@ function easyLearning() {
                         <img className="easyani1" src={EasyAni1}/>
                         <img className="easyani2" src={EasyAni2}/>
                         <img className="easyani3" src={EasyAni3}/>
-            <p style={{color:"#161616",textAlign:"center",fontSize:"24px",fontWeight:"bold",padding:"50px 0px 30px 0px",fontFamily:"Russo One"}}>Learning is now more easy</p>
+            <p style={{color:"#161616",textAlign:"center",fontSize:"24px",fontWeight:"bold",padding:"50px 0px 30px 0px",fontFamily:"Open Sans"}}>Learning is now more easy</p>
             <div className="container" style={{position:"relative"}} >
                 <div className="row easy" style={{zIndex:"9999"}} >
 
