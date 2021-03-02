@@ -1,21 +1,23 @@
 .r-p1{
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
-line-height: 56px;
-padding-top: 90px;
-color: #FFFFFF;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 56px;
+    padding-top: 90px;
+    color: #FFFFFF;
+    letter-spacing:3px;
 }
 .r-p2{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-padding-top: 20px;
-color: #BBB6B6;
-padding-bottom: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 20px;
+    color: #BBB6B6;
+    padding-bottom: 100px;
+ 
 }
 .r-img{
     position:absolute;
