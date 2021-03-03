@@ -21,7 +21,7 @@ function WhyPondith() {
         <div style={{ padding:"80px 0px 0px 0px"}}>
             <div className="container">
                 <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6" style={{marginTop:"-55px"}}>
                     {/* <img src={WhyPondithImg} style={{width:"95%"}}/> */}
                     <div className=" m-auto" ref={container}></div>
                 </div>
