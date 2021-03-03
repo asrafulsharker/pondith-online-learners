@@ -1,4 +1,5 @@
-import React from 'react'
+import React,{useEffect,useRef} from 'react'
+import lottie from 'lottie-web';
 import PlatformImg from '../images/platform.png';
 import Ani1 from '../images/ani1.png';
 import Ani2 from '../images/ani2.png';
@@ -6,7 +7,18 @@ import Ani3 from '../images/ani3.png';
 import Ani4 from '../images/ani4.png';
 import Ani5 from '../images/ani5.png';
 import './platform.css';
-function platform() {
+function Platform() {
+    const container = useRef(null)
+
+    useEffect(()=>{
+        lottie.loadAnimation({
+            container:container.current,
+            renderer:'svg',
+            loop:true,
+            autoplay:true,
+            animationData: require('./ani4.json')
+        })
+    },[])
     return (
         <div className="hero-platform" style={{paddingBottom:"",backgroundColor:"#1d1d1d",borderTop:"1px solid #4A4848"}}>
                 <img style={{width:"45px",height:"45px"}} className="ani1" src={Ani1}/>
@@ -18,7 +30,8 @@ function platform() {
                 <div className="row">
                     <div className="col-md-6">
                        <div className="col-md-10">
-                       <img src={PlatformImg}style={{marginTop:"250px",marginBottom:"10px",height:"110%",width:"140%"}}/>
+                       {/* <img src={PlatformImg}style={{marginTop:"250px",marginBottom:"10px",height:"110%",width:"140%"}}/> */}
+                       <div className="" style={{marginTop:"100px",height:"100%",width:"120%"}} ref={container}></div>
                        </div>
                     </div>
                     <div className="col-md-6 ml-auto">
@@ -40,4 +53,4 @@ function platform() {
     )
 }
 
-export default platform;
+export default Platform;

@@ -14,7 +14,7 @@ function WhyPondith() {
             renderer:'svg',
             loop:true,
             autoplay:true,
-            animationData: require('./ani2.json')
+            animationData: require('./ani3.json')
         })
     },[])
     return (
