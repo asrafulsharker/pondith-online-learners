@@ -31,7 +31,7 @@ function Platform() {
                     <div className="col-md-6">
                        <div className="col-md-10">
                        {/* <img src={PlatformImg}style={{marginTop:"250px",marginBottom:"10px",height:"110%",width:"140%"}}/> */}
-                       <div className="" style={{marginTop:"100px",height:"100%",width:"120%"}} ref={container}></div>
+                       <div className="" style={{marginTop:"45px",height:"100%",width:"120%"}} ref={container}></div>
                        </div>
                     </div>
                     <div className="col-md-6 ml-auto">
