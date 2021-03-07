@@ -35,7 +35,7 @@ function App() {
         setLoading(true);
         setTimeout(() => {
           setDone(true);
-        }, 1000)
+        }, 1200)
       // })
       // .catch(err => console.log(err));
     }, 1200);
