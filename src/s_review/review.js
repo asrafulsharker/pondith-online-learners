@@ -1,18 +1,26 @@
-import React from 'react'
+import React from 'react';
+import ReactDOM from 'react-dom';
 import storiesImg1 from '../images/storiesImg1.png';
 import storiesImg2 from '../images/storiesImg2.png';
 import storiesImg3 from '../images/storiesImg3.png';
 import storiesImg4 from '../images/storiesImg4.png';
 import Comma from '../images/comma.png';
 import './review.css';
-function review() {
+import Data from './data.js';
+
+
+function Review() {
+    function handleClick() {
+        console.log("Clicked")
+    }
     return (
         <div style={{background:"#f8f8f8"}}>
             <div className="container" style={{padding:"80px 0px 240px"}}>
                 <p className="success-p">From our Learners</p>
                 <div className="row">
                     <div className="col-md-4 success-img-rep">
-                        <img src={storiesImg1}/>
+                        <p>{}</p>
+                        <img src={ storiesImg1}/>
                             <div className="success-rep">
                             <div className="success-sm-text">
                             <img className="success-div-img" src={Comma}/>
@@ -41,7 +49,7 @@ function review() {
                         to share their knowledge with you
                         </p>
                         <div className="col-md-3 success-sm-div ml-auto">
-                            <img className="success-sm-img" src={storiesImg2}/><br/>
+                            <img className="success-sm-img" src={storiesImg2} style={{cursor:"pointer"}} onClick={handleClick}/><br/>
                             <img className="success-sm-img" src={storiesImg3}/><br/>
                             <img className="success-sm-img" src={storiesImg4}/>
                         </div>
@@ -52,4 +60,4 @@ function review() {
     )
 }
 
-export default review;
+export default Review;
