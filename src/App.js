@@ -28,7 +28,7 @@ function App() {
     setDone(undefined);
 
     setTimeout(() => {
-      fetch('https://aws.random.cat/meow')
+      fetch('https://aws.random.cat/meo')
       .then(res => res.json())
       .then(data => {
         setCat(data.file);
