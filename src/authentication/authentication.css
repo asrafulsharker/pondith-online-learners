@@ -3,7 +3,89 @@
     border-style:solid;
     border-color:gray;
 }
+.want-top-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.want-top-sm-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-align: center;
+    color: #D7D7D7;
+}
 
 .test{
     border: 1px solid gray;
+}
+.text-line1{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FF1C1C;
+}
+.text-line2{
+    position: absolute;
+    margin-left: 199px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #16F1E4;
+}
+.text-line3{
+    position: absolute;
+    margin-left: 398px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #F8D518;
+}
+.text-line4{
+    position: absolute;
+    margin-left: 597px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FF4C00; 
+}
+.text-line5{
+    position: absolute;
+    margin-left: 776px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #02F161;
+}
+.textLine-sm{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 10px;
+    width: 173px;
+    color: #D7D7D7;
 }
