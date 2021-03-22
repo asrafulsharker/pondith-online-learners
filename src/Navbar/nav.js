@@ -1,6 +1,8 @@
 import React from 'react'
 import { Button, Nav, Navbar, NavDropdown, MenuItem, NavItem } from 'react-bootstrap';
-
+import { Switch } from 'antd';
+import { CloseOutlined, CheckOutlined } from '@ant-design/icons';
+import 'antd/dist/antd.css';
 import logo1 from '../images/logo1.png';
 import './nav.css';
 
@@ -19,11 +21,7 @@ function nav() {
     <Nav.Link href="#home" style={{color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"30px ",fontFamily:"Roboto"}} className="m-auto nav-btn">Start Learning</Nav.Link>
     <Nav.Link href="#home"  className="m-auto">
     <div  class="toggleBox ">
-        <div class="toggle">
-            <input type="checkbox"/>
-            <label for="" className="onbtn">EN</label>
-            <label for="" className="ofbtn">BN</label>
-    </div>
+    <Switch className="sw" checkedChildren="BN" unCheckedChildren="EN"  defaultChecked />
     </div>
     </Nav.Link>
     </Nav>

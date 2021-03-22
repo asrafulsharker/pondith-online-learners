@@ -2,11 +2,8 @@ import React from 'react';
 import './authentication.css';
 function WantPondith() {
     return (
-        <div style={{}}>
+        <div style={{background: "rgba(22, 20, 20, 0.712)"}}>
             <div className="authentication">
-            <div className="bg-home" style={{background: "rgba(57, 55, 55, 0.7)",height:"64px",borderBottom:"1px solid #4A4848 "}}>
-            <p style={{textAlign:"center",color:"white",padding:"10px",paddingTop:"20px"}} className="container">Pondith - Online Learners’ is an Bangladeshi growing E-learning platform</p>
-            </div>
             <div className="container">
                 <p className="want-top-text">Want to become a Pondith?</p>
                 <p className="want-top-sm-text">We aim to provide best Academic and skill courses that helps learners,<br/>  

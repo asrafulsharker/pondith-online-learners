@@ -10,6 +10,7 @@ import Categories from './categories/categories';
 import {ThemeProvider} from '@material-ui/core';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Loading from './loading';
+import Login from './authentication/login';
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/auth" exact component={Auth}/>
+          <Route path="login" exact component="login"/>
         </Switch>
         </div>
       )}

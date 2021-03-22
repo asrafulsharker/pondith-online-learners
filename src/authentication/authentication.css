@@ -21,6 +21,7 @@
     text-align: center;
     text-align: center;
     color: #D7D7D7;
+    padding-bottom: 15px;
 }
 
 .test{
@@ -35,6 +36,9 @@
     line-height: 16px;
 
     color: #FF1C1C;
+}
+.check-want{
+    background-color: red !important;
 }
 .text-line2{
     position: absolute;
@@ -88,4 +92,53 @@
     line-height: 10px;
     width: 173px;
     color: #D7D7D7;
+}
+.reg-type{
+    border: 1px solid #A2A2A2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 441px;
+    height: 54px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+.text-reg{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FF1C1C;
+}
+.reg-btn{
+    width: 441px;
+    height: 54px;
+
+    background: #FF1C1C;
+    border-radius: 11px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #FFFFFF;
+    border: none;
+}
+.reg-div{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 29px;
+    padding: 10px;
+    padding: 50px;
+}
+.reg-main{
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.authentication{
+    padding-bottom: 190px;
 }
