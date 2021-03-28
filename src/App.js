@@ -52,10 +52,10 @@ function App() {
       
          <Router>
           <Switch>
-          <Route path="/" exact  component={ver}/>
+          <Route path="/"   component={ver}/>
           {/* <Route path="/auth" exact component={Auth}/> */}
-          <Route path="/reg"  component={reg}/>
-          <Route path="/login"  component={auth2}/>
+          <Route path="/reg" exact component={reg}/>
+          <Route path="/login" exact component={auth2}/>
 
         </Switch>
          
