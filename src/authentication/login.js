@@ -1,13 +1,30 @@
 import React,{Component} from 'react'
+import fire from '../config/fire';
 import LoginPic from '../images/login.png'
 class Login extends Component {
     constructor(props){
+        this.login = this.login.bind(this);
+        this.handleChange = this.handleChange.bind(this);
         super(props)
         this.state={
             email:"",
             password:"",
         }
     }
+    login(e){
+        e.preventDefault();
+        fire.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((u)=>{
+            console.log(u)
+        }).catch((err)=>{
+            console.log(err) 
+        })
+    }
+    handleChange(e){
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+    }
+    
     render(){
         return (
         
@@ -18,12 +35,15 @@ class Login extends Component {
                                 <div className="reg-div"> 
                                         <p className="text-reg" style={{width:"100px"}}>Register</p>
                                         <input 
+                                        onChange={this.handleChange}
                                         className="reg-type" 
+                                        name="email"
                                         type="email" 
                                         placeholder="Email"
                                         value={this.state.email}
                                         />
                                         <input 
+                                        onChange={this.handleChange}
                                         className="reg-type" 
                                         type="password" 
                                         placeholder="Password"
