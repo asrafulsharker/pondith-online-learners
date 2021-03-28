@@ -30,8 +30,8 @@ logout(){
   <Nav.Link href="#home"className="nav-hov"  style={{color:"white",fontSize:"18px",fontWeight:"500",lineHeight:"28.13px" ,marginLeft:"30px",fontFamily:"Roboto"}}>Courses</Nav.Link>
   <Nav.Link href="#home" className="nav-hov"  style={{color:"white",fontSize:"18px",fontWeight:"500",lineHeight:"28.13px" ,marginLeft:"30px",fontFamily:"Roboto"}}>Skills</Nav.Link>
   <Nav.Link href="#home" className="nav-hov" style={{color:"white",fontSize:"18px",fontWeight:"500",lineHeight:"28.13px",marginLeft:"30px",fontFamily:"Roboto",marginRight:"30px"}}>Blogs</Nav.Link>
-  <Nav.Link href="#home" style={{color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"30px ",fontFamily:"Roboto"}} className="m-auto nav-btn">Start Learning</Nav.Link>
-  <Nav.Link href="#home" onClick={this.logout} style={{color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"30px ",fontFamily:"Roboto"}} className="m-auto nav-btn">Logout</Nav.Link>
+  <Nav.Link href="#home" style={{height:"43px",width:"154px",textAlign:"center",color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"30px ",fontFamily:"Roboto"}} className=" nav-btn">Start Learning</Nav.Link>
+  <Nav.Link href="#home" onClick={this.logout} style={{height:"43px",width:"154px",textAlign:"center",color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"15px ",fontFamily:"Roboto"}} className=" nav-btn">Logout</Nav.Link>
   <Nav.Link href="#home"  className="m-auto">
   <div  class="toggleBox ">
   <Switch className="sw" checkedChildren="BN" unCheckedChildren="EN"  defaultChecked />
