@@ -3,25 +3,26 @@ import fire from '../config/fire';
 import LoginPic from '../images/login.png'
 class Login extends Component {
     constructor(props){
+        super(props);
         this.login = this.login.bind(this);
         this.handleChange = this.handleChange.bind(this);
-        super(props)
+
         this.state={
             email:"",
             password:"",
         }
     }
-    login(e){
-        e.preventDefault();
+    login(ei){
+        ei.preventDefault();
         fire.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((u)=>{
             console.log(u)
         }).catch((err)=>{
-            console.log(err) 
+            console.log(err) ;
         })
     }
-    handleChange(e){
+    handleChange(ei){
         this.setState({
-            [e.target.name]: e.target.value
+            [ei.target.name]: ei.target.value
         })
     }
     
@@ -45,7 +46,10 @@ class Login extends Component {
                                         <input 
                                         onChange={this.handleChange}
                                         className="reg-type" 
-                                        type="password" 
+                                        name="password"
+                                        type="password"
+                                        onChange={this.handleChange}
+                                        id="Password"
                                         placeholder="Password"
                                         value={this.state.password}
                                         />

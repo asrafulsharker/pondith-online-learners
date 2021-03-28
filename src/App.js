@@ -4,6 +4,7 @@ import './App.css';
 import {Switch , Route} from "react-router-dom";
 import Navbar from './Navbar/nav';
 import Ad from './ad/ad';
+import v from './authentication/verify';
 import Auth from './authentication/authentication';
 import Home from './Home/home';
 import Categories from './categories/categories';
@@ -50,7 +51,7 @@ function App() {
       ):(
         <div>
         <Switch>
-          <Route path="/" exact component={Auth}/>
+          <Route path="/" exact component={v}/>
           {/* <Route path="/auth" exact component={Auth}/> */}
           <Route path="/login" exact component={Login}/>
         </Switch>

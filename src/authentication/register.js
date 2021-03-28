@@ -4,9 +4,10 @@ import fire from '../config/fire';
 import LoginPic from '../images/loginImg.png';
 class Register extends Component {
     constructor(props){
+        super(props);
         this.handleChange = this.handleChange.bind(this);
         this.signup = this.signup.bind(this);
-        super(props)
+
         this.state={
             email:"",
             password:"",
@@ -14,7 +15,7 @@ class Register extends Component {
     }
     signup(e){
         e.preventDefault();
-        fire.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((u)=>{
+        fire.auth().createUserWithEmailAndPassword(this.state.email,this.state.password).then((u)=>{
             console.log(u)
         }).catch((err)=>{
             console.log(err) 
@@ -57,17 +58,20 @@ class Register extends Component {
                                         />
                                         <input 
                                         className="reg-type" 
-                                        type="password" 
+                                        name="password"
+                                        type="password"
+                                        onChange={this.handleChange}
+                                        id="Password"
                                         placeholder="Password"
                                         value={this.state.password}
-                                        onChange={this.handleChange}
+                                        
                                         />
                                         <br/>
                                         <div className="row" style={{marginTop:"10px",marginLeft:"70px", width:"320px"}}>
                                         <input style={{padding:"10px",width:"25px",height:"25px",fontSize:"20px",background:"red"}} type="checkbox" className="check-want"/>
                                         <p style={{marginLeft:"15px",color:"white"}}>I agree to all the <a href="#" style={{color:"#FF1C1C",fontWeight:"bold"}}>Terms & Conditions</a></p>
                                         </div>
-                                        <button className="reg-btn" type="submit">Register</button>
+                                        <button className="reg-btn" onClick={this.signup}>Register</button>
                                     </div>
                                 </div>
                             </div>
