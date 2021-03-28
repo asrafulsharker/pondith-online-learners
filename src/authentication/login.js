@@ -34,7 +34,7 @@ class Login extends Component {
                             <div className="row">
                                 <div className="col-md-6">
                                 <div className="reg-div"> 
-                                        <p className="text-reg" style={{width:"100px"}}>Register</p>
+                                        <p className="text-reg" style={{width:"100px"}}>Login</p>
                                         <input 
                                         onChange={this.handleChange}
                                         className="reg-type" 

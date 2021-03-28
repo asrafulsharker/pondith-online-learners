@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import {Link} from 'react-router-dom';
 import { Button, Nav, Navbar, NavDropdown, MenuItem, NavItem } from 'react-bootstrap';
 import { Switch } from 'antd';
 import { CloseOutlined, CheckOutlined } from '@ant-design/icons';
@@ -17,8 +18,8 @@ class authNav extends Component {
     <Nav.Link href="#home" className="nav-hov" style={{color:"white",fontSize:"18px",fontWeight:"500",lineHeight:"28.13px",marginLeft:"30px",fontFamily:"Roboto"}}>About</Nav.Link>
     <Nav.Link href="#home"className="nav-hov"  style={{color:"white",fontSize:"18px",fontWeight:"500",lineHeight:"28.13px" ,marginLeft:"30px",fontFamily:"Roboto"}}>Resources</Nav.Link>
     <Nav.Link href="#home" className="nav-hov"  style={{color:"white",fontSize:"18px",fontWeight:"500",lineHeight:"28.13px" ,marginLeft:"30px",fontFamily:"Roboto"}}>Blogs</Nav.Link>
-    <Nav.Link href="#home" style={{height:"43px",width:"154px",textAlign:"center",color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"30px ",fontFamily:"Roboto"}} className=" nav-btn">Login</Nav.Link>
-    <Nav.Link href="#home" style={{height:"43px",width:"154px",textAlign:"center",color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"15px ",fontFamily:"Roboto"}} className=" nav-btn">Register</Nav.Link>
+    <Nav.Link  style={{height:"43px",width:"154px",textAlign:"center",color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"30px ",fontFamily:"Roboto"}} className=" nav-btn"><Link to="/login"style={{textDecoration:"none",color:"white"}}>Login</Link></Nav.Link>
+    <Nav.Link href="#home" style={{height:"43px",width:"154px",textAlign:"center",color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"15px ",fontFamily:"Roboto"}} className=" nav-btn"><Link to="/reg" style={{textDecoration:"none",color:"white"}}>Register</Link></Nav.Link>
     <Nav.Link href="#home"  className="m-auto">
     <div  class="toggleBox ">
     <Switch className="sw" checkedChildren="BN" unCheckedChildren="EN"  defaultChecked />

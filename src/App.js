@@ -5,14 +5,14 @@ import {Switch , Route} from "react-router-dom";
 import Navbar from './Navbar/nav';
 import Ad from './ad/ad';
 import v from './authentication/verify';
-import Auth from './authentication/authentication';
+import reg from './authentication/authentication';
 import Home from './Home/home';
 import Categories from './categories/categories';
 import {ThemeProvider} from '@material-ui/core';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Loading from './loading';
 import Login from './authentication/login';
-
+import auth2 from './authentication/authentation2';
 
 function App() {
 
@@ -53,7 +53,9 @@ function App() {
         <Switch>
           <Route path="/" exact component={v}/>
           {/* <Route path="/auth" exact component={Auth}/> */}
-          <Route path="/login" exact component={Login}/>
+          <Route path="/reg" exact component={reg}/>
+          <Route path="/login" exact component={auth2}/>
+
         </Switch>
         </div>
       )}
