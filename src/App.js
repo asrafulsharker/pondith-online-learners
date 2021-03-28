@@ -48,12 +48,11 @@ function App() {
       {!done?(
         <Loading loading={loading}/>
       ):(
-                <div>
-        <Navbar/>
+        <div>
         <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/auth" exact component={Auth}/>
-          <Route path="login" exact component="login"/>
+          <Route path="/" exact component={Auth}/>
+          {/* <Route path="/auth" exact component={Auth}/> */}
+          <Route path="/login" exact component={Login}/>
         </Switch>
         </div>
       )}

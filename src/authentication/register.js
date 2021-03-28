@@ -1,7 +1,7 @@
 import React from 'react';
 import Checkbox from '@material-ui/core/Checkbox';
 import LoginPic from '../images/loginImg.png';
-function register() {
+function Register() {
     return (
         
 <div style={{background: "rgba(22, 20, 20, 0.712)",padding:"100px"}}>
@@ -31,4 +31,4 @@ function register() {
     )
 }
 
-export default register
+export default Register
