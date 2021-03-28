@@ -1,10 +1,10 @@
 import React,{useState,useEffect,useRef} from 'react';
 import lottie from 'lottie-web';
 import './App.css';
-import {Switch , Route} from "react-router-dom";
+import {BrowserRouter as Router,Switch , Route} from "react-router-dom";
 import Navbar from './Navbar/nav';
 import Ad from './ad/ad';
-import v from './authentication/verify';
+import ver from './authentication/verify';
 import reg from './authentication/authentication';
 import Home from './Home/home';
 import Categories from './categories/categories';
@@ -49,15 +49,18 @@ function App() {
       {!done?(
         <Loading loading={loading}/>
       ):(
-        <div>
-        <Switch>
-          <Route path="/" exact component={v}/>
+      
+          <Router>
+          <Switch>
+          <Route path="/"  component={ver}/>
           {/* <Route path="/auth" exact component={Auth}/> */}
           <Route path="/reg" exact component={reg}/>
           <Route path="/login" exact component={auth2}/>
 
         </Switch>
-        </div>
+          </Router>
+
+        
       )}
     </div>
 
