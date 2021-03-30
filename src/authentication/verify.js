@@ -2,6 +2,8 @@ import React,{Component} from 'react'
 import fire from '../config/fire';
 import Home from '../Home/home';
 import Auth from './authentication';
+import Auth2 from './authentation2';
+import {Link} from 'react-router-dom';
 class Verify extends Component {
     constructor(props)
     {

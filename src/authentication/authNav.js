@@ -19,8 +19,8 @@ class authNav extends Component {
     <Nav.Link href="#home"className="nav-hov"  style={{color:"white",fontSize:"18px",fontWeight:"500",lineHeight:"28.13px" ,marginLeft:"30px",fontFamily:"Roboto"}}>Resources</Nav.Link>
     <Nav.Link href="#home" className="nav-hov"  style={{color:"white",fontSize:"18px",fontWeight:"500",lineHeight:"28.13px" ,marginLeft:"30px",fontFamily:"Roboto"}}>Blogs</Nav.Link>
     <Nav.Link  style={{height:"43px",width:"154px",textAlign:"center",color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"30px ",fontFamily:"Roboto"}} className=" nav-btn"><Link to="/login"style={{textDecoration:"none",color:"white"}}>Login</Link></Nav.Link>
-    <Nav.Link href="#home" style={{height:"43px",width:"154px",textAlign:"center",color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"15px ",fontFamily:"Roboto"}} className=" nav-btn"><Link to="/reg" style={{textDecoration:"none",color:"white"}}>Register</Link></Nav.Link>
-    <Nav.Link href="#home"  className="m-auto">
+    <Nav.Link to="/login" style={{height:"43px",width:"154px",textAlign:"center",color:"white",fontSize:"18px",fontWeight:"700",lineHeight:"16.41px",marginLeft:"15px ",fontFamily:"Roboto"}} className=" nav-btn"><Link to="/reg" style={{textDecoration:"none",color:"white"}}>Register</Link></Nav.Link>
+    <Nav.Link to="/reg"  className="m-auto">
     <div  class="toggleBox ">
     <Switch className="sw" checkedChildren="BN" unCheckedChildren="EN"  defaultChecked />
     </div>

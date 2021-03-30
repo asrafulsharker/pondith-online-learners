@@ -49,17 +49,13 @@ function App() {
       {!done?(
         <Loading loading={loading}/>
       ):(
-      
-         <Router>
           <Switch>
-          <Route path="/"   component={ver}/>
+          <Route path="/" exact component={Home}/>
           {/* <Route path="/auth" exact component={Auth}/> */}
           <Route path="/reg" exact component={reg}/>
           <Route path="/login" exact component={auth2}/>
-
+          <Route path="/ver" exact component={ver}/>
         </Switch>
-         
-        </Router>
         
       )}
     </div>
